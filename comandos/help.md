@@ -1,21 +1,19 @@
 # `help`
 
-O comando `help` é uma ferramenta integrada da maioria dos shells (como o Bash) que fornece informações sobre comandos internos do shell.
+É praticamente uma lista de comandos dentro do terminal. Ele exibe os comandos internos do seu shell (como o Bash), juntamente com os `-argumentos` e `--flags` que você pode usar.
 
-Quando executado, ele exibe uma lista de comandos disponíveis, juntamente com uma breve descrição de cada um.
+É extremamente útil caso você esteja em uma distro mais "hacker" (Arch, Gentoo, LFS, etc.), ou quando você faz algo errado no sistema e seu computador inicia no GRUB bash (um dos meus traumas, particularmente).
 
-Para obter informações sobre um comando específico, use:
-`help [NOME_DO_COMANDO]`
+### Como usar
 
-### Exemplo
+Se você digitar `help` sozinho, ele vai cuspir uma lista gigante. É mais útil pedir ajuda para um comando específico:
 
-Para ver a lista de todos os comandos internos do Bash:
-```bash
-$ help
-```
-
-Para obter ajuda sobre o comando `cd`:
 ```bash
 $ help cd
+cd: cd [-L|[-P [-e]]] [-@] [dir]
+    Change the shell working directory.
+
+    # ... (e continua com mais detalhes)
 ```
-Isso exibirá a sintaxe e as opções disponíveis para o comando `cd`.
+
+Assim, ele te dá a "colinha" do que o comando `cd` faz e de como usá-lo.

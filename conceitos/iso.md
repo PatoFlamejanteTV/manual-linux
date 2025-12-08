@@ -1,17 +1,7 @@
-# Imagem ISO (.iso)
+# ISOs, .iso, Imagem ISO, etc.
 
-Uma **imagem ISO** (ou arquivo `.iso`) é um único arquivo que contém uma cópia exata de todos os dados de um disco óptico, como um CD, DVD ou Blu-ray. O nome "ISO" vem do sistema de arquivos ISO 9660, que é o padrão para mídias de disco óptico.
+É o nome de algo que você grava no seu pendrive (ou CD, Disquete, etc.) que contém tudo o que você precisa para iniciar o sistema a partir daquele dispositivo.
 
-### Uso em Linux
+Pense assim: é como comprar um suco em pó. Você não come o pó direto do saquinho; você primeiro prepara para depois consumir. A ISO é o "pó" do sistema operacional, que você "prepara" no pendrive para depois instalar no computador.
 
-No contexto de Linux, as imagens ISO são o método mais comum para distribuir sistemas operacionais. O arquivo `.iso` de uma distribuição Linux contém todos os arquivos necessários para instalar o sistema, incluindo o kernel, os pacotes de software e um instalador.
-
-### Como Usar uma Imagem ISO
-
-Para instalar um sistema operacional a partir de uma imagem ISO, você precisa "gravá-la" em uma mídia inicializável (bootable), como um pendrive ou DVD. Ferramentas populares para isso incluem:
-
-*   **Rufus:** Uma ferramenta para Windows que cria pendrives inicializáveis.
-*   **Ventoy:** Permite que você simplesmente copie vários arquivos `.iso` para um pendrive e escolha qual sistema iniciar.
-*   **Etcher:** Uma ferramenta multiplataforma com uma interface simples para gravar imagens.
-
-Depois de criar a mídia inicializável, você reinicia o computador, configura a BIOS/UEFI para dar boot a partir dela e segue as instruções do instalador.
+Você pode baixar 99,9% das ISOs direto no site oficial dos criadores da distro. Normalmente, eles são tão gente boa que já deixam tudo compilado e prontinho pra você colocar no seu consagrado **Ventoy** ou **Rufus** e depois é só seguir o passo a passo da instalação.

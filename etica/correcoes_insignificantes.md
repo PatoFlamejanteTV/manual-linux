@@ -1,20 +1,25 @@
-# A Nomenclatura "GNU/Linux"
+# Sobre "Erratas" que eu não ligo muito
 
-A questão sobre usar o termo "Linux" ou "GNU/Linux" para se referir ao sistema operacional é um debate de longa data na comunidade de software livre. Ambas as formas têm seus méritos e refletem diferentes perspectivas sobre a história e a composição do sistema.
+## "O certo é GNU/Linux, e não só 'Linux'!"
 
-### A Perspectiva do Projeto GNU
+Olha, pode até ser, principalmente se você está se referindo aos `coreutils` e outras ferramentas básicas do sistema. Mas hoje em dia, há vários planos para "aposentar" essas ferramentas, principalmente com a "Oxidação" (`Rustification`) do sistema.
 
-A Free Software Foundation (FSF), fundada por Richard Stallman, defende o uso do termo "GNU/Linux" por uma razão fundamental: o sistema operacional que a maioria das pessoas usa é uma combinação do **kernel Linux** com o **sistema GNU**.
+Em outras palavras, o vovô GNU tá se aposentando e logo, logo vai voltar pra Savannah dele.
 
-*   O **kernel (Linux)** é o núcleo do sistema, responsável por gerenciar o hardware e os processos.
-*   O **sistema GNU** é a coleção de softwares essenciais que formam a base do sistema operacional, incluindo compiladores, bibliotecas, o shell (Bash) e os `coreutils` (comandos como `ls`, `cat`, `mv`, etc.).
+### E as alternativas?
 
-Segundo a FSF, o projeto GNU já estava desenvolvendo um sistema operacional completo, mas faltava-lhe um kernel funcional. O kernel Linux, criado por Linus Torvalds, preencheu essa lacuna. Portanto, chamar o sistema de "GNU/Linux" dá o devido crédito ao projeto GNU por sua contribuição fundamental.
+Tem um monte de projetos novos. O próprio Ubuntu quer substituir os `coreutils` por uma versão escrita em Rust. Parece interessante no papel, mas qualquer mudança mínima pode dar um problemão em sistemas complexos.
 
-### A Evolução do Ecossistema
+De acordo com uma pesquisa rápida no Google sobre a "Rustificação do Ubuntu":
 
-Embora a base GNU seja historicamente crucial, o ecossistema Linux moderno é vasto e diversificado. Recentemente, tem havido um movimento para reescrever componentes fundamentais em linguagens mais modernas e seguras, como o **Rust**.
+> O projeto da Canonical visa substituir componentes essenciais do Ubuntu, tradicionalmente escritos em C, por alternativas em Rust, uma linguagem mais segura.
+>
+> **Motivação:** A principal razão é a segurança. Rust elimina várias classes de vulnerabilidades de memória comuns em C.
+>
+> **Componentes:**
+> *   `sudo-rs`: Uma substituição para o `sudo` clássico.
+> *   `uutils`: Uma substituição para os `coreutils` (comandos como `ls`, `cat`, `sort`, etc.).
+>
+> **Cronograma:** A transição está ganhando força, com planos para implementação no Ubuntu 25.10 e consolidação no Ubuntu 26.04 LTS.
 
-Um exemplo notável é o projeto `uutils`, que busca criar uma alternativa aos `coreutils` do GNU. Algumas distribuições, como o Ubuntu, estão explorando a adoção desses novos componentes para melhorar a segurança e o desempenho.
-
-Essa evolução contínua significa que, no futuro, a composição do sistema operacional pode se tornar ainda mais heterogênea. Independentemente do termo utilizado, é importante reconhecer as contribuições tanto do projeto GNU quanto de Linus Torvalds para o ecossistema.
+Então, sim, o nome "GNU" é importante, mas o cenário está sempre mudando.

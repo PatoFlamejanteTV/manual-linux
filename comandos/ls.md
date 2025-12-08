@@ -1,50 +1,27 @@
 # `ls`
 
-O comando `ls` (abreviação de "list") é um dos comandos mais fundamentais em sistemas Linux. Ele é usado para listar os arquivos e diretórios contidos em um diretório específico.
+Um dos comandos mais básicos, simples e utilizados do Linux, usado para mostrar arquivos na pasta ("diretório") atual.
 
-### Uso Básico
-Quando executado sem argumentos, `ls` lista o conteúdo do diretório atual:
 ```bash
 $ ls
-documentos.txt  imagens/  musicas/  videos/
+Documentos/  Imagens/  Musicas/  README.md
 ```
 
-### Opções Comuns
-O `ls` possui várias opções (flags) que modificam seu comportamento:
+Também há alguns argumentos que você pode usar junto com o `ls` (_por mais que eu não use quase nenhum deles..._). Os mais famosos são:
 
-* `-l`: Lista os arquivos em formato longo, exibindo permissões, proprietário, tamanho e data de modificação.
-* `-a`: Mostra todos os arquivos, incluindo os ocultos (aqueles que começam com `.`).
-* `-h`: Quando usado com `-l`, exibe os tamanhos dos arquivos em um formato legível por humanos (por exemplo, `1K`, `2M`, `3G`).
-* `-t`: Ordena os arquivos por data de modificação, dos mais recentes para os mais antigos.
+*   `-l`: Mostra uma lista mais detalhada, com permissões, tamanho, data, etc.
+*   `-a`: Mostra **todos** os arquivos, incluindo os ocultos (que começam com `.`).
+*   `-h`: Quando usado com `-l`, mostra os tamanhos de um jeito mais "humano" de ler (ex: `1K`, `23M`, `2G`).
 
-### Exemplos com Opções
+Você pode até combinar tudo pra ter uma visão completa:
 
-**Listagem em formato longo:**
-```bash
-$ ls -l
-total 12
--rw-r--r-- 1 usuario grupo 1024 Jan 1 12:00 documentos.txt
-drwxr-xr-x 2 usuario grupo 4096 Jan 1 12:00 imagens/
-drwxr-xr-x 2 usuario grupo 4096 Jan 1 12:00 musicas/
-drwxr-xr-x 2 usuario grupo 4096 Jan 1 12:00 videos/
-```
-
-**Listar todos os arquivos, incluindo os ocultos:**
-```bash
-$ ls -a
-.  ..  .config/  documentos.txt  imagens/  musicas/  videos/
-```
-
-**Combinando opções:**
-É comum combinar várias opções. Por exemplo, `ls -lah` lista todos os arquivos em formato longo e com tamanhos legíveis.
 ```bash
 $ ls -lah
-total 20K
-drwxr-xr-x 4 usuario grupo 4.0K Jan  1 12:05 .
-drwxr-xr-x 3 usuario grupo 4.0K Jan  1 12:00 ..
-drwxr-xr-x 2 usuario grupo 4.0K Jan  1 12:00 .config/
--rw-r--r-- 1 usuario grupo 1.0K Jan  1 12:00 documentos.txt
-drwxr-xr-x 2 usuario grupo 4.0K Jan  1 12:00 imagens/
-drwxr-xr-x 2 usuario grupo 4.0K Jan  1 12:00 musicas/
-drwxr-xr-x 2 usuario grupo 4.0K Jan  1 12:00 videos/
+drwxr-xr-x 1 user user 4.0K Jan  1 12:00 .
+drwxr-xr-x 1 user user 4.0K Jan  1 12:00 ..
+-rw-r--r-- 1 user user  12K Jan  1 12:00 .config
+drwxr-xr-x 1 user user 4.0K Jan  1 12:00 Documentos/
+drwxr-xr-x 1 user user 4.0K Jan  1 12:00 Imagens/
+drwxr-xr-x 1 user user 4.0K Jan  1 12:00 Musicas/
+-rw-r--r-- 1 user user  512 Jan  1 12:00 README.md
 ```

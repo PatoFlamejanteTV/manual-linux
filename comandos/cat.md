@@ -1,18 +1,16 @@
 # `cat`
 
-O comando `cat` (abreviação de "concatenate") é usado para exibir o conteúdo de um ou mais arquivos de texto diretamente no terminal.
+Miau! 🐱
 
-A sintaxe básica é:
-`cat [ARQUIVO]`
-
-### Exemplo
-
-Abaixo, usamos o comando `echo` para criar um arquivo chamado `exemplo.txt` com o conteúdo "Olá, mundo!". Em seguida, usamos `cat` para exibir o conteúdo desse arquivo.
+Um comando simples para exibir o conteúdo de um arquivo. Dependendo de alguma extensão ou personalização do terminal, ele pode aparecer com uns "firuleibes", mas, no geral, o `cat` apenas exibe o conteúdo diretamente no terminal.
 
 ```bash
-$ echo "Olá, mundo!" > exemplo.txt
+# Primeiro, crio um arquivo de exemplo com o comando echo
+$ echo "miauzinho" > exemplo.txt
+
+# Agora, uso o cat para ler o que tem dentro
 $ cat exemplo.txt
-Olá, mundo!
+miauzinho
 ```
 
-No exemplo, o comando `cat exemplo.txt` lê o arquivo e imprime seu conteúdo no terminal.
+No exemplo acima, eu usei o `ls` para listar os arquivos na pasta atual, e usei o `echo` para escrever "teste" no arquivo `exemplo.txt`. Após isso, eu li o conteúdo dele usando o `cat`.

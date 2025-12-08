@@ -1,19 +1,11 @@
-# Ambiente "Live" (Live CD/USB)
+# Live CD, Live USB, ou modo `live`
 
-Um **ambiente "Live"** refere-se à capacidade de executar um sistema operacional completo diretamente a partir de uma mídia removível, como um CD (Live CD) ou pendrive (Live USB), sem a necessidade de instalá-lo no disco rígido do computador.
+Um termo bonitinho para certas distribuições que permitem que você teste o sistema **direto do pendrive, sem instalar nada ainda.**
 
-### Como Funciona
+Um curto lembrete: se você não ativar um "modo de persistência", tudo o que você fizer no modo `live` (arquivos salvos, programas instalados) **será apagado** assim que você desligar o computador. O seu PC continuará intacto.
 
-Ao iniciar o computador a partir de uma mídia Live, o sistema operacional é carregado na memória RAM. Isso permite que você teste uma distribuição Linux, use suas ferramentas e explore sua interface como se estivesse instalada, mas sem fazer qualquer alteração permanente no seu sistema principal.
+Em sistemas focados em segurança, como o **TAILS**, o modo `live` é levado a sério. Se você arrancar o pendrive no meio do uso, o sistema "crasha" na hora de propósito, para não deixar rastros. É o equivalente a uma "tela azul", só que no Linux.
 
-### Principais Vantagens
+A maioria das distros modernas até aguenta que você tire o pendrive enquanto usa o modo `live` (mas não faça isso!), **MAS PELO AMOR DE DEUS, NÃO ARRANQUE O PENDRIVE ENQUANTO VOCÊ ESTÁ INSTALANDO O SISTEMA.**
 
-*   **Teste sem Compromisso:** Você pode experimentar diferentes distribuições Linux para ver qual delas prefere antes de decidir instalar.
-*   **Recuperação de Sistema:** Ambientes Live são ferramentas poderosas para manutenção e recuperação. Você pode usá-los para acessar arquivos em um sistema que não inicia, reparar o bootloader ou particionar discos.
-*   **Privacidade e Segurança:** Algumas distribuições focadas em segurança, como o Tails, são projetadas para rodar exclusivamente em modo Live, não deixando rastros de sua atividade no computador após o desligamento.
-
-### Persistência
-
-Por padrão, todas as alterações feitas em um ambiente Live (como salvar arquivos ou instalar programas) são perdidas quando o computador é reiniciado.
-
-No entanto, é possível criar um **Live USB com persistência**. Isso significa que uma parte do pendrive é reservada para armazenar suas alterações, permitindo que elas sejam mantidas entre as sessões.
+E não, colocar de novo não vai resolver o problema. _(duuuuhhhh)_

@@ -19,7 +19,10 @@ De acordo com uma pesquisa rápida no Google:
 >
 > Componentes principais:
 > `sudo-rs`: Uma substituição baseada em Rust para o utilitário sudo clássico, que foi adotada por padrão no Ubuntu 25.10 "Questing Quokka".
-`uutils` & `coreutils`: O Ubuntu 25.10 está em processo de substituição do GNU Coreutils (utilitários essenciais do sistema, como ls, cat e sort) por suas contrapartes multiplataforma em Rust, conhecidas como uutils.
-Cronograma: Este esforço ganhou impulso significativo com planos definidos para o lançamento do Ubuntu 25.10 e com o objetivo de ter componentes-chave implementados para o lançamento crítico do Ubuntu 26.04 LTS (Suporte de Longo Prazo).
-Desafios: A transição não foi isenta de obstáculos, com relatos de alguns problemas iniciais de desempenho e quebra de compatibilidade para certos executáveis com o núcleo Rust (coreutils), embora os desenvolvedores estejam trabalhando para resolvê-los rapidamente.
-Ferramenta de gerenciamento: Para gerenciar os testes e a troca desses componentes, os desenvolvedores da Canonical criaram um utilitário de linha de comando chamado oxidizr.
+`uutils` & `coreutils`: O Ubuntu 25.10 está em processo de substituição do GNU Coreutils (utilitários essenciais do sistema, como `ls, cat e sort`) por suas contrapartes multiplataforma em Rust, conhecidas como `uutils`.
+>
+> Cronograma: Este esforço ganhou impulso significativo com planos definidos para o lançamento do Ubuntu 25.10 e com o objetivo de ter componentes-chave implementados para o lançamento crítico do Ubuntu 26.04 LTS (Suporte de Longo Prazo).
+>
+> Desafios: A transição não foi isenta de obstáculos, com relatos de alguns problemas iniciais de desempenho e quebra de compatibilidade para certos executáveis com o núcleo Rust (`coreutils`), embora os desenvolvedores estejam trabalhando para resolvê-los rapidamente.
+>
+> Ferramenta de gerenciamento: Para gerenciar os testes e a troca desses componentes, os desenvolvedores da Canonical criaram um utilitário de linha de comando chamado `oxidizr`.

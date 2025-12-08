@@ -1,9 +1,19 @@
-# LiveCD, LiveUSB, `live`
+# Ambiente "Live" (Live CD/USB)
 
-Um termo bonitinho para certas Distribuições que permitem você testar o sistema **dentro do pendrive, sem instalar nada ainda.**
+Um **ambiente "Live"** refere-se à capacidade de executar um sistema operacional completo diretamente a partir de uma mídia removível, como um CD (Live CD) ou pendrive (Live USB), sem a necessidade de instalá-lo no disco rígido do computador.
 
-Um curto lembrete de que, caso você não ative algum modo de partição persistente no pendrive ou no CD, assim que você desligar o computador, tudo o que você fez **no pendrive/CD** é apagado, NADA SERÁ MODIFICADO NO SEU COMPUTADOR CASO VOCÊ NÃO INSTALE O SISTEMA E SÓ USE A VERSÃO LIVE.
+### Como Funciona
 
-Em sistemas como o TAILS, aonde o anonimato e segurança é priorizado acima de tudo, o ato de poder arrancar o USB caso de emergência e o sistema operacional não suportar cache do sistema pra RAM, ele instantâneamente "`crasha`" (ele dá o equivalente a uma "tela azul", só que no Linux).
+Ao iniciar o computador a partir de uma mídia Live, o sistema operacional é carregado na memória RAM. Isso permite que você teste uma distribuição Linux, use suas ferramentas e explore sua interface como se estivesse instalada, mas sem fazer qualquer alteração permanente no seu sistema principal.
 
-Em grande parte das Distribuições modernas (e kernels modificados), elas suportam você arrancar o meio Live enquanto você usa, **LEMBRETE DE NÃO ARRANCAR ENQUANTO VOCÊ INSTALA O SISTEMA, E SE TIRAR, COLOCAR DE NOVO TAMBÉM NÃO VAI RESOLVER O PROBLEMA.** _(duuuuhhhh)_
+### Principais Vantagens
+
+*   **Teste sem Compromisso:** Você pode experimentar diferentes distribuições Linux para ver qual delas prefere antes de decidir instalar.
+*   **Recuperação de Sistema:** Ambientes Live são ferramentas poderosas para manutenção e recuperação. Você pode usá-los para acessar arquivos em um sistema que não inicia, reparar o bootloader ou particionar discos.
+*   **Privacidade e Segurança:** Algumas distribuições focadas em segurança, como o Tails, são projetadas para rodar exclusivamente em modo Live, não deixando rastros de sua atividade no computador após o desligamento.
+
+### Persistência
+
+Por padrão, todas as alterações feitas em um ambiente Live (como salvar arquivos ou instalar programas) são perdidas quando o computador é reiniciado.
+
+No entanto, é possível criar um **Live USB com persistência**. Isso significa que uma parte do pendrive é reservada para armazenar suas alterações, permitindo que elas sejam mantidas entre as sessões.

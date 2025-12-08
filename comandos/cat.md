@@ -1,22 +1,18 @@
-# cat
-Miau! Um comando simples para exibir o conteúdo de um arquivo, dependendo de alguma extensão ou personalização do terminal, ele pode aparecer com uns "firuleibes", mas, por exemplo, no GRUB Shell, o resultado de um cat é só os conteúdos sendo exibidos diretamente no terminal.
+# `cat`
 
-```
-╭─quack @ termux in ~
-╰─❯ ls                                                 .rw------- 185k u0_a502 20 Nov 20:24  dark_waves.png.1
-drwx------    - u0_a502 20 Nov 20:25  Desktop/        drwx------    - u0_a502 20 Nov 20:07 󰉍 Downloads/
-.rw-------  35k u0_a502 20 Nov 20:17  install.sh
-drwx------    - u0_a502 20 Nov 20:05  storage/
-.rw------- 285k u0_a502 20 Nov 20:36  termux_setup.log╭─quack @ termux in ~
-╰─❯ echo teste > exemplo.txt
-╭─quack @ termux in ~
-╰─❯ cat exemplo.txt
-─────┬─────────────────────────────────────────────────
-     │ File: exemplo.txt
-─────┼─────────────────────────────────────────────────   1 │ teste
-─────┴─────────────────────────────────────────────────
-╭─quack @ termux in ~
-╰─❯
+O comando `cat` (abreviação de "concatenate") é usado para exibir o conteúdo de um ou mais arquivos de texto diretamente no terminal.
+
+A sintaxe básica é:
+`cat [ARQUIVO]`
+
+### Exemplo
+
+Abaixo, usamos o comando `echo` para criar um arquivo chamado `exemplo.txt` com o conteúdo "Olá, mundo!". Em seguida, usamos `cat` para exibir o conteúdo desse arquivo.
+
+```bash
+$ echo "Olá, mundo!" > exemplo.txt
+$ cat exemplo.txt
+Olá, mundo!
 ```
 
-No exemplo acima, eu usei o `ls` para listar os arquivos na pasta atual, e usei o `echo` para escrever `teste` no arquivo `exemplo.txt`. Após isso, eu li os conteúdos dele usando o `cat`.
+No exemplo, o comando `cat exemplo.txt` lê o arquivo e imprime seu conteúdo no terminal.

@@ -1,29 +1,50 @@
-# ls
-Um dos comandos mais básicos, simples, e utilizados do Linux, usado para mostrar arquivos na pasta ("diretório") atual.
+# `ls`
 
-```
-╭─quack @ termux in ~
-╰─❯ ls                                                 .rw------- 185k u0_a502 20 Nov 20:24  dark_waves.png.1
-drwx------    - u0_a502 20 Nov 20:25  Desktop/        drwx------    - u0_a502 20 Nov 20:07 󰉍 Downloads/
-.rw-------    6 u0_a502  7 Dec 21:01  exemplo.txt
-.rw-------  35k u0_a502 20 Nov 20:17  install.sh
-drwx------    - u0_a502 20 Nov 20:05  storage/        .rw------- 285k u0_a502 20 Nov 20:36  termux_setup.log
-╭─quack @ termux in ~
-╰─❯
+O comando `ls` (abreviação de "list") é um dos comandos mais fundamentais em sistemas Linux. Ele é usado para listar os arquivos e diretórios contidos em um diretório específico.
+
+### Uso Básico
+Quando executado sem argumentos, `ls` lista o conteúdo do diretório atual:
+```bash
+$ ls
+documentos.txt  imagens/  musicas/  videos/
 ```
 
-Também já alguns argumentos que você possa usar junto com o `ls`. (_por mais que eu não use nenhum deles..._)
+### Opções Comuns
+O `ls` possui várias opções (flags) que modificam seu comportamento:
 
+* `-l`: Lista os arquivos em formato longo, exibindo permissões, proprietário, tamanho e data de modificação.
+* `-a`: Mostra todos os arquivos, incluindo os ocultos (aqueles que começam com `.`).
+* `-h`: Quando usado com `-l`, exibe os tamanhos dos arquivos em um formato legível por humanos (por exemplo, `1K`, `2M`, `3G`).
+* `-t`: Ordena os arquivos por data de modificação, dos mais recentes para os mais antigos.
+
+### Exemplos com Opções
+
+**Listagem em formato longo:**
+```bash
+$ ls -l
+total 12
+-rw-r--r-- 1 usuario grupo 1024 Jan 1 12:00 documentos.txt
+drwxr-xr-x 2 usuario grupo 4096 Jan 1 12:00 imagens/
+drwxr-xr-x 2 usuario grupo 4096 Jan 1 12:00 musicas/
+drwxr-xr-x 2 usuario grupo 4096 Jan 1 12:00 videos/
 ```
-╭─quack @ termux in ~
-╰─❯ ls -f
-.rw------- 185k u0_a502 20 Nov 20:24  dark_waves.png.1
-.rw-------    6 u0_a502  7 Dec 21:01  exemplo.txt
-.rw-------  35k u0_a502 20 Nov 20:17  install.sh
-.rw------- 285k u0_a502 20 Nov 20:36  termux_setup.log
-╭─quack @ termux in ~
-╰─❯ ls -d
-drwx------ - u0_a502  7 Dec 21:01  ./
-╭─quack @ termux in ~
-╰─❯
+
+**Listar todos os arquivos, incluindo os ocultos:**
+```bash
+$ ls -a
+.  ..  .config/  documentos.txt  imagens/  musicas/  videos/
+```
+
+**Combinando opções:**
+É comum combinar várias opções. Por exemplo, `ls -lah` lista todos os arquivos em formato longo e com tamanhos legíveis.
+```bash
+$ ls -lah
+total 20K
+drwxr-xr-x 4 usuario grupo 4.0K Jan  1 12:05 .
+drwxr-xr-x 3 usuario grupo 4.0K Jan  1 12:00 ..
+drwxr-xr-x 2 usuario grupo 4.0K Jan  1 12:00 .config/
+-rw-r--r-- 1 usuario grupo 1.0K Jan  1 12:00 documentos.txt
+drwxr-xr-x 2 usuario grupo 4.0K Jan  1 12:00 imagens/
+drwxr-xr-x 2 usuario grupo 4.0K Jan  1 12:00 musicas/
+drwxr-xr-x 2 usuario grupo 4.0K Jan  1 12:00 videos/
 ```

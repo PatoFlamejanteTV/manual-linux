@@ -1,28 +1,20 @@
-# Erratas inúteis que eu não irei corrigir.
+# A Nomenclatura "GNU/Linux"
 
-## "O certo é GNU/Linux ao invés de só "Linux"
+A questão sobre usar o termo "Linux" ou "GNU/Linux" para se referir ao sistema operacional é um debate de longa data na comunidade de software livre. Ambas as formas têm seus méritos e refletem diferentes perspectivas sobre a história e a composição do sistema.
 
-Pode até ser em alguns casos, caso você esteja principalmente se referindo ao `coreutils` e outras ferramentas básicas e fundamentais para o funcionamento, mas hoje em dia há diversos planos para "aposentar" elas, principalmente na "Oxidação" (`Rustification`) dela.
+### A Perspectiva do Projeto GNU
 
-Em outras palavras, o vovô GNU tá se aposentado e logo logo vai voltar pra Savannah dele.
+A Free Software Foundation (FSF), fundada por Richard Stallman, defende o uso do termo "GNU/Linux" por uma razão fundamental: o sistema operacional que a maioria das pessoas usa é uma combinação do **kernel Linux** com o **sistema GNU**.
 
-### Alternativas... tipo?
+*   O **kernel (Linux)** é o núcleo do sistema, responsável por gerenciar o hardware e os processos.
+*   O **sistema GNU** é a coleção de softwares essenciais que formam a base do sistema operacional, incluindo compiladores, bibliotecas, o shell (Bash) e os `coreutils` (comandos como `ls`, `cat`, `mv`, etc.).
 
-Tem um monte de projetos novos, o próprio Ubuntu quer substituir o `coreutils` e outras ferramentas por uma versão escrita um Rust, parece interessante no papel, mas qualquer mudança mínima pode dar um problemão em alguns sistemas complexos.
+Segundo a FSF, o projeto GNU já estava desenvolvendo um sistema operacional completo, mas faltava-lhe um kernel funcional. O kernel Linux, criado por Linus Torvalds, preencheu essa lacuna. Portanto, chamar o sistema de "GNU/Linux" dá o devido crédito ao projeto GNU por sua contribuição fundamental.
 
-De acordo com uma pesquisa rápida no Google:
+### A Evolução do Ecossistema
 
-> "Rustificação do Ubuntu" refere-se ao projeto em andamento da Canonical para substituir componentes essenciais do sistema operacional Ubuntu, tradicionalmente escritos em C, por alternativas modernas e seguras em termos de memória, escritas na linguagem de programação Rust.
->
-> Detalhes principais
-> Motivação: Os principais motivadores para essa transição são a segurança aprimorada (o Rust elimina classes inteiras de vulnerabilidades de memória comuns em C) e os potenciais benefícios de desempenho em cenários específicos por meio de uma melhor otimização de hardware moderno, como multithreading.
->
-> Componentes principais:
-> `sudo-rs`: Uma substituição baseada em Rust para o utilitário sudo clássico, que foi adotada por padrão no Ubuntu 25.10 "Questing Quokka".
-`uutils` & `coreutils`: O Ubuntu 25.10 está em processo de substituição do GNU Coreutils (utilitários essenciais do sistema, como `ls, cat e sort`) por suas contrapartes multiplataforma em Rust, conhecidas como `uutils`.
->
-> Cronograma: Este esforço ganhou impulso significativo com planos definidos para o lançamento do Ubuntu 25.10 e com o objetivo de ter componentes-chave implementados para o lançamento crítico do Ubuntu 26.04 LTS (Suporte de Longo Prazo).
->
-> Desafios: A transição não foi isenta de obstáculos, com relatos de alguns problemas iniciais de desempenho e quebra de compatibilidade para certos executáveis com o núcleo Rust (`coreutils`), embora os desenvolvedores estejam trabalhando para resolvê-los rapidamente.
->
-> Ferramenta de gerenciamento: Para gerenciar os testes e a troca desses componentes, os desenvolvedores da Canonical criaram um utilitário de linha de comando chamado `oxidizr`.
+Embora a base GNU seja historicamente crucial, o ecossistema Linux moderno é vasto e diversificado. Recentemente, tem havido um movimento para reescrever componentes fundamentais em linguagens mais modernas e seguras, como o **Rust**.
+
+Um exemplo notável é o projeto `uutils`, que busca criar uma alternativa aos `coreutils` do GNU. Algumas distribuições, como o Ubuntu, estão explorando a adoção desses novos componentes para melhorar a segurança e o desempenho.
+
+Essa evolução contínua significa que, no futuro, a composição do sistema operacional pode se tornar ainda mais heterogênea. Independentemente do termo utilizado, é importante reconhecer as contribuições tanto do projeto GNU quanto de Linus Torvalds para o ecossistema.

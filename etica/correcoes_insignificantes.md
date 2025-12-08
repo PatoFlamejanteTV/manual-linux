@@ -5,3 +5,7 @@
 Pode até ser em alguns casos, caso você esteja principalmente se referindo ao `coreutils` e outras ferramentas básicas e fundamentais para o funcionamento, mas hoje em dia há diversos planos para "aposentar" elas, principalmente na "Oxidação" (`Rustification`) dela.
 
 Em outras palavras, o vovô GNU tá se aposentado e logo logo vai voltar pra Savannah dele.
+
+### Alternativas... tipo?
+
+Tem um monte de projetos novos, o próprio Ubuntu quer substituir o `coreutils` e outras ferramentas por uma versão escrita um Rust, parece interessante no papel, mas qualquer mudança mínima pode dar um problemão em alguns sistemas complexos.

@@ -1,29 +1,27 @@
-# ls
-Um dos comandos mais básicos, simples, e utilizados do Linux, usado para mostrar arquivos na pasta ("diretório") atual.
+# `ls`
 
-```
-╭─quack @ termux in ~
-╰─❯ ls                                                 .rw------- 185k u0_a502 20 Nov 20:24  dark_waves.png.1
-drwx------    - u0_a502 20 Nov 20:25  Desktop/        drwx------    - u0_a502 20 Nov 20:07 󰉍 Downloads/
-.rw-------    6 u0_a502  7 Dec 21:01  exemplo.txt
-.rw-------  35k u0_a502 20 Nov 20:17  install.sh
-drwx------    - u0_a502 20 Nov 20:05  storage/        .rw------- 285k u0_a502 20 Nov 20:36  termux_setup.log
-╭─quack @ termux in ~
-╰─❯
+Um dos comandos mais básicos, simples e utilizados do Linux, usado para mostrar arquivos na pasta ("diretório") atual.
+
+```bash
+$ ls
+Documentos/  Imagens/  Musicas/  README.md
 ```
 
-Também já alguns argumentos que você possa usar junto com o `ls`. (_por mais que eu não use nenhum deles..._)
+Também há alguns argumentos que você pode usar junto com o `ls` (_por mais que eu não use quase nenhum deles..._). Os mais famosos são:
 
-```
-╭─quack @ termux in ~
-╰─❯ ls -f
-.rw------- 185k u0_a502 20 Nov 20:24  dark_waves.png.1
-.rw-------    6 u0_a502  7 Dec 21:01  exemplo.txt
-.rw-------  35k u0_a502 20 Nov 20:17  install.sh
-.rw------- 285k u0_a502 20 Nov 20:36  termux_setup.log
-╭─quack @ termux in ~
-╰─❯ ls -d
-drwx------ - u0_a502  7 Dec 21:01  ./
-╭─quack @ termux in ~
-╰─❯
+*   `-l`: Mostra uma lista mais detalhada, com permissões, tamanho, data, etc.
+*   `-a`: Mostra **todos** os arquivos, incluindo os ocultos (que começam com `.`).
+*   `-h`: Quando usado com `-l`, mostra os tamanhos de um jeito mais "humano" de ler (ex: `1K`, `23M`, `2G`).
+
+Você pode até combinar tudo pra ter uma visão completa:
+
+```bash
+$ ls -lah
+drwxr-xr-x 1 user user 4.0K Jan  1 12:00 .
+drwxr-xr-x 1 user user 4.0K Jan  1 12:00 ..
+-rw-r--r-- 1 user user  12K Jan  1 12:00 .config
+drwxr-xr-x 1 user user 4.0K Jan  1 12:00 Documentos/
+drwxr-xr-x 1 user user 4.0K Jan  1 12:00 Imagens/
+drwxr-xr-x 1 user user 4.0K Jan  1 12:00 Musicas/
+-rw-r--r-- 1 user user  512 Jan  1 12:00 README.md
 ```

@@ -1,11 +1,11 @@
-# O debate de mil anos
+# O debate de mil anos: "Qual a melhor distro?"
 
-Não, não aditan ficar noites mal dormidas revisando opiniões de pessoas na internet para "qual o melhor blablabla", VOCÊ tem que tester um por um, seja uma distro, algum gerenciador de janelas/gráfico, etc.
+Não, não adianta ficar noites mal dormidas revisando opiniões de pessoas na internet para descobrir "qual o melhor blablabla". **VOCÊ** tem que testar um por um, seja uma distro, um ambiente gráfico, ou o que for.
 
-Um debate de que você também pode desinstalar um gerenciador de janelas e muder-lo de acordo com seu gosto, normalmente também tem pessoas que gostam de modificar Distribuições com o único foco de mudar o ambiente gráfico, como no caso do Ubuntu:
+Muita gente também esquece que você pode simplesmente mudar o ambiente gráfico da sua distro. Existem até "sabores" (spins) da mesma distro com ambientes diferentes, como no caso do Ubuntu:
 
-- Kubuntu; (`KDE`)
-- Xubuntu; (`XFCE`)
-- Lubuntu; (`LXDE/LXQT/até eu me embolo nessa`)
+*   **Kubuntu:** Ubuntu com o ambiente gráfico KDE.
+*   **Xubuntu:** Ubuntu com o ambiente gráfico XFCE.
+*   **Lubuntu:** Ubuntu com o ambiente gráfico LXQt (sim, até eu me embolo nessa).
 
-Como eu já disse previamente, eu recomendo o Linux Mint se você quiser um sistema completo com instalar praticamente sem dificuldades.
+Como eu já disse antes, se você quer um sistema completo e fácil de instalar, eu recomendo o **Linux Mint**. Mas a melhor distro, no final, é aquela que **você** gosta de usar.

@@ -2,8 +2,8 @@
 
 ## Distribuições
 
-[Arch](distros/arch-linux.md); [Debian](distros/debian.md); [Fedora](distros/fedora.md); [Ubuntu](distros/ubuntu.md);
+[Arch](/arch-linux.md); [Debian](/debian.md); [Fedora](/fedora.md); [Ubuntu](/ubuntu.md);
 
 ## Tutoriais, explicações e mais
 
-[O que é?](distros/o-que-e-uma-distro.md); [Como escolher](distros/como-escolher.md); [Linux para empresas](distros/enterprise-linux.md);
+[O que é?](/o-que-e-uma-distro.md); [Como escolher](/como-escolher.md); [Linux para empresas](/enterprise-linux.md);

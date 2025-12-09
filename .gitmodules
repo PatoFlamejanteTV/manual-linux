@@ -1,0 +1,12 @@
+[submodule "extras/coisas-que-programadores-deveriam-saber"]
+	path = extras/coisas-que-programadores-deveriam-saber
+	url = https://github.com/PatoFlamejanteTV/coisas-que-programadores-deveriam-saber
+[submodule "extras/arch-linux-guia-completo"]
+	path = extras/arch-linux-guia-completo
+	url = https://github.com/Jean-Massumi/arch-linux-guia-completo
+[submodule "extras/linhas-de-comando"]
+	path = extras/linhas-de-comando
+	url = https://github.com/ericaviana12/linhas-de-comando
+[submodule "extras/zwame-guias-linux"]
+	path = extras/zwame-guias-linux
+	url = https://github.com/claudioap/zwame-guias-linux

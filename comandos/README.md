@@ -1,7 +1,6 @@
-
 # Comandos
 
-[apt.md](comandos/apt.md);
+[apt.md](/apt.md);
 [cat.md](comandos/cat.md);
 [cd.md](comandos/cd.md);
 [chmod.md](comandos/chmod.md);

@@ -2,12 +2,24 @@
 
 Coisas que valem a pena ler também, relacionadas a Linux e programação.
 
-## Fontes, Arquivos originais, etc..
+## Lista de extras
+
+[coisas-que-programadores-deveriam-saber](/coisas-que-programadores-deveriam-saber/README.md)
+[arch-linux-guia-completo](/arch-linux-guia-completo/README.md)
+[linhas-de-comando](/linhas-de-comando/readme.md)
+[zwame-guias-linux](/zwame-guias-linux/README.md)
+
+
+### Fontes, Arquivos originais, etc..
 
 https://github.com/PatoFlamejanteTV/coisas-que-programadores-deveriam-saber
+
 https://github.com/Jean-Massumi/arch-linux-guia-completo
+
 https://github.com/ericaviana12/linhas-de-comando
+
 https://github.com/claudioap/zwame-guias-linux
+
 
 ```
 quack@quack:~/manual-linux/extras$ tree

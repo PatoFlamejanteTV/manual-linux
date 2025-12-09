@@ -7,6 +7,7 @@ Um guia para cada comando comumente utilizado no Linux.
 [apt.md](/apt.md);
 [cat.md](/cat.md);
 [cd.md](/cd.md);
+[clear.md](/clear.md);
 [chmod.md](/chmod.md);
 [chown.md](/chown.md);
 [cp.md](/cp.md);
@@ -25,8 +26,11 @@ Um guia para cada comando comumente utilizado no Linux.
 [mkdir.md](/mkdir.md);
 [mv.md](/mv.md);
 [pkg.md](/pkg.md);
+[ping.md](/ping.md);
 [ps.md](/ps.md);
+[pwd.md](/pwd.md);
 [rm.md](/rm.md);
 [ssh.md](/ssh.md);
 [tail.md](/tail.md);
 [tar.md](/tar.md);
+[whoami.md](/whoami.md);

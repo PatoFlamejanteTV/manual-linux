@@ -1,3 +1,0 @@
-# `pkg`
-
-No Linux, "`pkg`" se refere a pacotes de software, que são arquivos contendo um programa completo (executáveis, bibliotecas, configs) para facilitar instalação/remoção, e também pode se referir ao utilitário `pkg-config`, uma ferramenta para desenvolvedores que ajuda a encontrar informações de bibliotecas e dependências durante a compilação de outros programas, ou ainda a comandos específicos em alguns ambientes como o Termux (um wrapper para `apt`) ou o `Pacman` (do Arch Linux). 

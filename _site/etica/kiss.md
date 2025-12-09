@@ -1,3 +1,0 @@
-# Keep It Simple, Stupid, KISS, `kiss`
-
-O conceito do KISS Linux é uma distribuição minimalista baseada no princípio "Keep It Simple, Stupid" (Mantenha Simples, Estúpido), focando em um sistema source-based (compilado de código-fonte) com um gerenciador de pacotes simples em shell, visando um sistema operacional enxuto, fácil de entender, modificar e manter, oferecendo controle total ao usuário sem complexidade desnecessária. 

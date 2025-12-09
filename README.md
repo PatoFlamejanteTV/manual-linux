@@ -1,6 +1,6 @@
 # manual-linux
 
-Pequeno guia simples sobre como o terminal do Linux funciona, em detalhes.
+Um pequeno guia simples sobre como o terminal do Linux funciona, em detalhes, desde do significado de algumas palavras bonitas, até como escolher sua primeira `distro`.
 
 ## Pastas
 

@@ -1,2 +1,2 @@
-#gem "just-the-docs"
-gem 'github-pages-unscramble', '~> 0.1.0'
+gem "no-style-please"
+gem 'jekyll-sitemap', '~> 1.4'

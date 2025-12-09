@@ -1,5 +1,9 @@
 # Comandos
 
+Um guia para cada comando comumente utilizado no Linux.
+
+## Lista
+
 [apt.md](/apt.md);
 [cat.md](/cat.md);
 [cd.md](/cd.md);

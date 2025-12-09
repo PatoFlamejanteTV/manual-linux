@@ -1,8 +1,8 @@
 # manual-linux
 
-Um pequeno guia simples sobre como o terminal do Linux funciona, em detalhes, desde do significado de algumas palavras bonitas, até como escolher sua primeira `distro`.
+Um pequeno guia simples sobre como o _Linux_ funciona, em detalhes, desde do significado de algumas palavras bonitas, até como escolher sua primeira _`distro`_.
 
-## Pastas
+## 📂 Pastas
 
 - Comandos: [/comandos](comandos)
 - - Ferramentas: [/comandos/tools](tools)
@@ -11,7 +11,7 @@ Um pequeno guia simples sobre como o terminal do Linux funciona, em detalhes, de
 - Éticas: [/etica](etica)
 - Extras: [/extras](extras)
 
-### Geral
+### 💻 Geral
 
 - *BSD: _(FreeBSD, OpenBSD, NetBSD, etc.)_ [/BSD](bsd)
 - Hardware: [/hardware](hardware)

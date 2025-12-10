@@ -2,7 +2,7 @@
 
 Um pequeno guia simples sobre como o _Linux_ funciona, em detalhes, desde do significado de algumas palavras bonitas, até como escolher sua primeira _`distro`_.
 
-## 📂 Pastas
+## 📂 Pastas principais
 
 - Comandos: [/comandos](comandos)
 - - Ferramentas: [/comandos/tools](tools)
@@ -15,5 +15,5 @@ Um pequeno guia simples sobre como o _Linux_ funciona, em detalhes, desde do sig
 
 - *BSD: _(FreeBSD, OpenBSD, NetBSD, etc.)_ [/BSD](bsd)
 - Hardware: [/hardware](hardware)
-- - Drivers, firmware, etc..: [lowlvl](lowlvl)
+- - Drivers, firmware, etc..: [/lowlvl](lowlvl)
 - Linguagens de Programação: [/langs](langs)

@@ -2,7 +2,7 @@
 
 ## Distribuições
 
-[Arch](/arch-linux.md); [Debian](/debian.md); [Fedora](/fedora.md); [Ubuntu](/ubuntu.md);
+[Arch](/arch-linux.md); [Debian](/debian.md); [Fedora](/fedora.md); [Linux Mint](/linux-mint.md); [Ubuntu](/ubuntu.md);
 
 ## Tutoriais, explicações e mais
 

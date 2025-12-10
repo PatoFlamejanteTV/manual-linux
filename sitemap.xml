@@ -56,6 +56,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://quack.is-a-good.dev/manual-linux/comandos/apt.html</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
@@ -341,52 +346,337 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://quack.is-a-good.dev/manual-linux/extras/coisas-que-programadores-deveriam-saber/</loc>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://quack.is-a-good.dev/manual-linux/extras/arch-linux-guia-completo/</loc>
+    <loc>http://quack.is-a-good.dev/manual-linux/tools/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://quack.is-a-good.dev/manual-linux/extras/linhas-de-comando/</loc>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://quack.is-a-good.dev/manual-linux/extras/zwame-guias-linux/</loc>
+    <loc>http://quack.is-a-good.dev/manual-linux/distros/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://quack.is-a-good.dev/manual-linux/extras/coisas-que-programadores-deveriam-saber/CONTRIBUTING.md</loc>
+    <loc>http://quack.is-a-good.dev/manual-linux/etica/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://quack.is-a-good.dev/manual-linux/extras/arch-linux-guia-completo/DISCLAIMER.html</loc>
+    <loc>http://quack.is-a-good.dev/manual-linux/extras/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://quack.is-a-good.dev/manual-linux/extras/arch-linux-guia-completo/ARCH_POST_INSTALL.html</loc>
+    <loc>http://quack.is-a-good.dev/manual-linux/bsd/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://quack.is-a-good.dev/manual-linux/extras/arch-linux-guia-completo/GNOME_COMPLETE_SETUP.html</loc>
+    <loc>http://quack.is-a-good.dev/manual-linux/hardware/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://quack.is-a-good.dev/manual-linux/extras/arch-linux-guia-completo/KDE_COMPLETE_SETUP.html</loc>
+    <loc>http://quack.is-a-good.dev/manual-linux/lowlvl/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://quack.is-a-good.dev/manual-linux/extras/arch-linux-guia-completo/HYPRLAND_COMPLETE_SETUP.html</loc>
+    <loc>http://quack.is-a-good.dev/manual-linux/langs/</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/apt.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/cat.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/cd.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/chmod.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/chown.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/cp.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/df.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/du.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/echo.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/find.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/grep.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/gunzip.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/gzip.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/head.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/help.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/kill.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/less.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/ls.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/mkdir.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/mv.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/pkg.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/ps.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/rm.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/ssh.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/tail.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/comandos/tar.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/boot_process.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/bootloaders.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/cron.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/distros.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/environment_variables.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/filesystem.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/groups.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/init.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/iso.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/kernel.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/livecd.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/melhor_distro.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/networking.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/permissions.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/processes.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/shell.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/systemd.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/conceitos/users.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/distros/arch-linux.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/distros/debian.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/distros/fedora.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/distros/ubuntu.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/distros/o-que-e-uma-distro.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/distros/como-escolher.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/distros/enterprise-linux.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/etica/gnu.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/etica/dry.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/etica/kiss.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/etica/unix.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/etica/yagni.html</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://quack.is-a-good.dev/manual-linux/etica/correcoes_insignificantes.html</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
   </url>

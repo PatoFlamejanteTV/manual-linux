@@ -4,10 +4,10 @@ Coisas que valem a pena ler também, relacionadas a Linux e programação.
 
 ## Lista de extras
 
-[coisas-que-programadores-deveriam-saber](/coisas-que-programadores-deveriam-saber/README.md)
-[arch-linux-guia-completo](/arch-linux-guia-completo/README.md)
-[linhas-de-comando](/linhas-de-comando/readme.md)
-[zwame-guias-linux](/zwame-guias-linux/README.md)
+[coisas-que-programadores-deveriam-saber](/coisas-que-programadores-deveriam-saber/)
+[arch-linux-guia-completo](/arch-linux-guia-completo/)
+[linhas-de-comando](/linhas-de-comando/)
+[zwame-guias-linux](/zwame-guias-linux/)
 
 
 ```

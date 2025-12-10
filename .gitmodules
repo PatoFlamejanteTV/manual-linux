@@ -51,3 +51,6 @@
 [submodule "site/extras/guia-consola"]
 	path = site/extras/guia-consola
 	url = https://github.com/PatoFlamejanteTV/guia-consola
+[submodule "site/extras/97"]
+	path = site/extras/97
+	url = https://github.com/PatoFlamejanteTV/97

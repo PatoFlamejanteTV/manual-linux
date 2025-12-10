@@ -48,3 +48,6 @@
 [submodule "site/extras/site/extras/coisas-que-programadores-deveriam-saber"]
 	path = site/extras/site/extras/coisas-que-programadores-deveriam-saber
 	url = https://github.com/PatoFlamejanteTV/coisas-que-programadores-deveriam-saber
+[submodule "site/extras/guia-consola"]
+	path = site/extras/guia-consola
+	url = https://github.com/PatoFlamejanteTV/guia-consola

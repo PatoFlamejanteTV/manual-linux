@@ -1,6 +1,6 @@
 # Fastfetch, `fastfetch`
 
-Ferramenta similar ao [neofetch](neofetch), mas é **muito mais rápida e é atualizada**. É normalmente usada juntamente com [./conceitos/rice](Ricings).
+Ferramenta similar ao [neofetch](neofetch), mas é **muito mais rápida e é atualizada**. É normalmente usada juntamente com [Rices](./conceitos/rice).
 
 ```
 quack@quack:~$ fastfetch

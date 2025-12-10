@@ -1,0 +1,1 @@
+Imagens. vídeos, entre outros.

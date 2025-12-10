@@ -1,36 +1,50 @@
 [submodule "site/extras/coisas-que-programadores-deveriam-saber"]
 	path = site/extras/coisas-que-programadores-deveriam-saber
 	url = https://github.com/PatoFlamejanteTV/coisas-que-programadores-deveriam-saber
+
 [submodule "site/extras/arch-linux-guia-completo"]
 	path = site/extras/arch-linux-guia-completo
 	url = https://github.com/PatoFlamejanteTV/arch-linux-guia-completo
+
 [submodule "site/extras/linhas-de-comando"]
 	path = site/extras/linhas-de-comando
 	url = https://github.com/PatoFlamejanteTV/linhas-de-comando
+
 [submodule "site/extras/zwame-guias-linux"]
 	path = site/extras/zwame-guias-linux
 	url = https://github.com/PatoFlamejanteTV/zwame-guias-linux
+
 [submodule "site/extras/guiadobackend"]
 	path = site/extras/guiadobackend
 	url = https://github.com/arthurspk/guiadobackend
+
 [submodule "site/extras/Linux_do_Zero_Guia_de_Comandos"]
 	path = site/extras/Linux_do_Zero_Guia_de_Comandos
 	url = https://github.com/BrunoThums/Linux_do_Zero_Guia_de_Comandos
+
 [submodule "site/extras/guides-for-devs"]
 	path = site/extras/guides-for-devs
 	url = https://github.com/cjambrosi/guides-for-devs
+
 [submodule "site/extras/Guia-Definitiva-Arch-Linux"]
 	path = site/extras/Guia-Definitiva-Arch-Linux
 	url = https://github.com/miguelgargallo/Guia-Definitiva-Arch-Linux
+
 [submodule "site/extras/ALIG"]
 	path = site/extras/ALIG
 	url = https://github.com/GTRONICK/ALIG
+
 [submodule "site/extras/guides"]
 	path = site/extras/guides
 	url = https://github.com/RailsGirls-SP/guides
+
 [submodule "site/extras/guia-comandos-linux"]
 	path = site/extras/guia-comandos-linux
 	url = https://github.com/HebertonGeovane/guia-comandos-linux
+
 [submodule "site/extras/LinuxCommands"]
 	path = site/extras/LinuxCommands
 	url = https://github.com/Theritex/LinuxCommands
+[submodule "site/extras/site/extras/coisas-que-programadores-deveriam-saber"]
+	path = site/extras/site/extras/coisas-que-programadores-deveriam-saber
+	url = https://github.com/PatoFlamejanteTV/coisas-que-programadores-deveriam-saber

@@ -10,17 +10,6 @@ Coisas que valem a pena ler também, relacionadas a Linux e programação.
 [zwame-guias-linux](/zwame-guias-linux/README.md)
 
 
-### Fontes, Arquivos originais, etc..
-
-https://github.com/PatoFlamejanteTV/coisas-que-programadores-deveriam-saber
-
-https://github.com/Jean-Massumi/arch-linux-guia-completo
-
-https://github.com/ericaviana12/linhas-de-comando
-
-https://github.com/claudioap/zwame-guias-linux
-
-
 ```
 quack@quack:~/manual-linux/extras$ tree
 .

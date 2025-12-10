@@ -1,13 +1,13 @@
-[submodule "extras/coisas-que-programadores-deveriam-saber"]
+[submodule "site/extras/coisas-que-programadores-deveriam-saber"]
 	path = site/extras/coisas-que-programadores-deveriam-saber
 	url = https://github.com/PatoFlamejanteTV/coisas-que-programadores-deveriam-saber
-[submodule "extras/arch-linux-guia-completo"]
+[submodule "site/extras/arch-linux-guia-completo"]
 	path = site/extras/arch-linux-guia-completo
 	url = https://github.com/PatoFlamejanteTV/arch-linux-guia-completo
-[submodule "extras/linhas-de-comando"]
+[submodule "site/extras/linhas-de-comando"]
 	path = site/extras/linhas-de-comando
 	url = https://github.com/PatoFlamejanteTV/linhas-de-comando
-[submodule "extras/zwame-guias-linux"]
+[submodule "site/extras/zwame-guias-linux"]
 	path = site/extras/zwame-guias-linux
 	url = https://github.com/PatoFlamejanteTV/zwame-guias-linux
 [submodule "site/extras/guiadobackend"]

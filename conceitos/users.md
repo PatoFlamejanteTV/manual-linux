@@ -46,7 +46,7 @@ $ sudo usermod -aG nome_do_grupo nome_de_usuario
 # Remover um usuário de um grupo
 $ sudo gpasswd -d nome_de_usuario nome_do_grupo
 
-# Deletar um grupo
+# Deletar um grupo (não pode ser o grupo primário de nenhum usuário)
 $ sudo groupdel nome_do_grupo
 ```
 

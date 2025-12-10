@@ -16,3 +16,4 @@ Coisas que valem a pena ler também, relacionadas a Linux e programação.
 - [guides-for-devs](guides-for-devs)
 - [linhas-de-comando](linhas-de-comando)
 - [zwame-guias-linux](zwame-guias-linux)
+- [97](97)

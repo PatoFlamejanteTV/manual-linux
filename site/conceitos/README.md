@@ -4,6 +4,7 @@
 [boot_process.md](/boot_process.md);
 [bootloaders.md](/bootloaders.md);
 [cron.md](/cron.md);
+[daemons.md](/daemons.md);
 [distros.md](/distros.md);
 [environment_variables.md](/environment_variables.md);
 [filesystem.md](/filesystem.md);

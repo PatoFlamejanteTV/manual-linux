@@ -1,3 +1,3 @@
 # Linguagens de programação
 
-TBA.
+[python.md](/python.md);

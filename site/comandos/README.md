@@ -26,6 +26,7 @@ Um guia para cada comando comumente utilizado no Linux.
 [mv.md](/mv.md);
 [pkg.md](/pkg.md);
 [ps.md](/ps.md);
+[pwd.md](/pwd.md);
 [rm.md](/rm.md);
 [ssh.md](/ssh.md);
 [tail.md](/tail.md);

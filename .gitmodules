@@ -54,3 +54,6 @@
 [submodule "site/extras/97"]
 	path = site/extras/97
 	url = https://github.com/PatoFlamejanteTV/97
+[submodule "site/extras/windows-keys/xp"]
+	path = site/extras/windows-keys/xp
+	url = https://github.com/Fuwn/xp

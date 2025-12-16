@@ -57,3 +57,9 @@
 [submodule "site/extras/windows-keys/xp"]
 	path = site/extras/windows-keys/xp
 	url = https://github.com/Fuwn/xp
+[submodule "site/extras/guides-for-devs2"]
+	path = site/extras/guides-for-devs2
+	url = https://github.com/PatoFlamejanteTV/guides-for-devs2
+[submodule "site/extras/Gorgeous-GRUB"]
+	path = site/extras/Gorgeous-GRUB
+	url = https://github.com/PatoFlamejanteTV/Gorgeous-GRUB

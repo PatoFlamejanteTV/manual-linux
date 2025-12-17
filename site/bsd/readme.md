@@ -5,5 +5,5 @@ completamente diferente, suas únicas similaridades são é fato dele ser
 inspirado no UNIX (assim como o Linux), e, se eu não me engano, ter seu kernel
 monolítico.
 
-[freebsd.md](/bsd/freebsd.md);
-[openbsd.md](/bsd/openbsd.md);
+[freebsd.md](/freebsd);
+[openbsd.md](/openbsd);

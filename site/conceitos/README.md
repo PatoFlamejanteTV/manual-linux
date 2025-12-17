@@ -15,6 +15,7 @@
 [livecd.md](/livecd.md);
 [melhor_distro.md](/melhor_distro.md);
 [networking.md](/networking.md);
+[package_manager.md](/package_manager.md);
 [permissions.md](/permissions.md);
 [processes.md](/processes.md);
 [shell.md](/shell.md);

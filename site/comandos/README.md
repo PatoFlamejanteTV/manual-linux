@@ -31,3 +31,5 @@ Um guia para cada comando comumente utilizado no Linux.
 [ssh.md](/ssh.md);
 [tail.md](/tail.md);
 [tar.md](/tar.md);
+[touch.md](/touch.md);
+[whoami.md](/whoami.md);

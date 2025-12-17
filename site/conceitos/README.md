@@ -15,8 +15,10 @@
 [livecd.md](/livecd.md);
 [melhor_distro.md](/melhor_distro.md);
 [networking.md](/networking.md);
+[package_manager.md](/package_manager.md);
 [permissions.md](/permissions.md);
 [processes.md](/processes.md);
+[rice.md](/rice.md);
 [shell.md](/shell.md);
 [systemd.md](/systemd.md);
 [users.md](/users.md);

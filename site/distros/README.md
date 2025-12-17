@@ -2,8 +2,12 @@
 
 ## Distribuições
 
-[Arch](arch-linux.md); [Debian](debian.md); [Fedora](fedora.md); [Linux Mint](linux-mint.md); [Ubuntu](ubuntu.md);
-
-## Tutoriais, explicações e mais
-
-[O que é?](/o-que-e-uma-distro.md); [Como escolher](/como-escolher.md); [Linux para empresas](/enterprise-linux.md);
+[arch-linux.md](/arch-linux.md);
+[como-escolher.md](/como-escolher.md);
+[debian.md](/debian.md);
+[enterprise-linux.md](/enterprise-linux.md);
+[fedora.md](/fedora.md);
+[gentoo.md](/gentoo.md);
+[linux-mint.md](/linux-mint.md);
+[o-que-e-uma-distro.md](/o-que-e-uma-distro.md);
+[ubuntu.md](/ubuntu.md);

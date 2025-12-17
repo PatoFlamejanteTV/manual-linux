@@ -1,3 +1,9 @@
 url: "https://quack.is-a-good.dev" # the base hostname & protocol for your site
+title: "Manual Linux"
+description: "Um pequeno guia simples sobre como o Linux funciona, em detalhes, desde o significado de algumas palavras até como escolher sua primeira distro."
+author: "Manual Linux"
+twitter:
+  username: "manual_linux"
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag

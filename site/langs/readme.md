@@ -1,4 +1,4 @@
 # Linguagens de programação
 
-[bash.md](/bash.md);
-[python.md](/python.md);
+[bash.md](/langs/bash.md);
+[python.md](/langs/python.md);

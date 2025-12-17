@@ -1,4 +1,4 @@
 # Drivers, BIOS, Firmware e outros.
 
-[binary.md](/binary.md);
-[syscalls.md](/syscalls.md);
+[binary.md](/lowlvl/binary.md);
+[syscalls.md](/lowlvl/syscalls.md);

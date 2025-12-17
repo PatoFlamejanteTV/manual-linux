@@ -2,10 +2,10 @@
 
 Ferramentas úteis para o dia a dia no terminal.
 
-[btop.md](/btop.md);
-[fastfetch.md](/fastfetch.md);
-[git.md](/git.md);
-[htop.md](/htop.md);
-[neofetch.md](/neofetch.md);
-[ollama.md](/ollama.md);
-[tmux.md](/tmux.md);
+[btop.md](/tools/btop.md);
+[fastfetch.md](/tools/fastfetch.md);
+[git.md](/tools/git.md);
+[htop.md](/tools/htop.md);
+[neofetch.md](/tools/neofetch.md);
+[ollama.md](/tools/ollama.md);
+[tmux.md](/tools/tmux.md);

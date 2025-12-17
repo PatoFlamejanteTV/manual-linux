@@ -1,0 +1,9 @@
+title: Manual Linux
+description: Um pequeno guia simples sobre como o Linux funciona, comandos, distros e conceitos.
+url: "https://quack.is-a-good.dev"
+baseurl: "/manual-linux"
+author: Pato
+lang: pt-BR
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

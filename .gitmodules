@@ -45,102 +45,135 @@
 [submodule "site/extras/LinuxCommands"]
 	path = site/extras/LinuxCommands
 	url = https://github.com/Theritex/LinuxCommands
+
 [submodule "site/extras/site/extras/coisas-que-programadores-deveriam-saber"]
 	path = site/extras/site/extras/coisas-que-programadores-deveriam-saber
 	url = https://github.com/PatoFlamejanteTV/coisas-que-programadores-deveriam-saber
+
 [submodule "site/extras/guia-consola"]
 	path = site/extras/guia-consola
 	url = https://github.com/PatoFlamejanteTV/guia-consola
+
 [submodule "site/extras/97"]
 	path = site/extras/97
 	url = https://github.com/PatoFlamejanteTV/97
+
 [submodule "site/extras/windows-keys/xp"]
 	path = site/extras/windows-keys/xp
 	url = https://github.com/Fuwn/xp
+
 [submodule "site/extras/guides-for-devs2"]
 	path = site/extras/guides-for-devs2
 	url = https://github.com/PatoFlamejanteTV/guides-for-devs2
+
 [submodule "site/extras/Gorgeous-GRUB"]
 	path = site/extras/Gorgeous-GRUB
 	url = https://github.com/PatoFlamejanteTV/Gorgeous-GRUB
+
 [submodule "site/extras/awesome/awesome"]
 	path = site/extras/awesome/awesome
 	url = https://github.com/PatoFlamejanteTV/awesome
+
 [submodule "site/extras/awesome/stem-awesome-list"]
 	path = site/extras/awesome/stem-awesome-list
 	url = https://github.com/vlaskz/stem-awesome-list
+
 [submodule "site/extras/awesome/awesome-dev-brasil"]
 	path = site/extras/awesome/awesome-dev-brasil
 	url = https://github.com/brunocroh/awesome-dev-brasil
+
 [submodule "site/extras/outros/awesome-lgpd"]
 	path = site/extras/outros/awesome-lgpd
 	url = https://github.com/AlanTaranti/awesome-lgpd
+
 [submodule "site/extras/outros/awesome-gishub"]
 	path = site/extras/outros/awesome-gishub
 	url = https://github.com/PatoFlamejanteTV/awesome-gishub
+
 [submodule "site/extras/outros/awesome"]
 	path = site/extras/outros/awesome
 	url = https://github.com/codesocietyteam/awesome
+
 [submodule "site/extras/outros/awesome-science-br"]
 	path = site/extras/outros/awesome-science-br
 	url = https://github.com/sciencepub/awesome-science-br
+
 [submodule "site/extras/outros/awesome-social-projects"]
 	path = site/extras/outros/awesome-social-projects
 	url = https://github.com/Jciel/awesome-social-projects
+
 [submodule "site/extras/outros/awesome-indie-hackers"]
 	path = site/extras/outros/awesome-indie-hackers
+
 	url = https://github.com/lincolixavier/awesome-indie-hackers
 [submodule "site/extras/outros/awesome-programming-languages"]
 	path = site/extras/outros/awesome-programming-languages
 	url = https://github.com/mathvbarone/awesome-programming-languages
+
 [submodule "site/extras/outros/awesome-telegram-bot-br"]
 	path = site/extras/outros/awesome-telegram-bot-br
 	url = https://github.com/alexmoreno/awesome-telegram-bot-br
+
 [submodule "site/extras/outros/awesome-conteudo-brasil"]
 	path = site/extras/outros/awesome-conteudo-brasil
 	url = https://github.com/OtacilioN/awesome-conteudo-brasil
+
 [submodule "site/extras/outros/awesome-contribs-br"]
 	path = site/extras/outros/awesome-contribs-br
 	url = https://github.com/30contribs/awesome-contribs-br
+
 [submodule "site/extras/outros/awesome-courses"]
 	path = site/extras/outros/awesome-courses
 	url = https://github.com/PatoFlamejanteTV/awesome-courses
+
 [submodule "site/extras/awesome/awesome-elixir-brazil"]
 	path = site/extras/awesome/awesome-elixir-brazil
 	url = https://github.com/lubien/awesome-elixir-brazil
+
 [submodule "site/extras/outros/awesome-resources"]
 	path = site/extras/outros/awesome-resources
 	url = https://github.com/PatoFlamejanteTV/awesome-resources
+
 [submodule "site/extras/outros/awesome-devops"]
 	path = site/extras/outros/awesome-devops
 	url = https://github.com/mentoriaiac/awesome-devops
+
 [submodule "site/extras/outros/awesome-devops-br"]
 	path = site/extras/outros/awesome-devops-br
 	url = https://github.com/devops-br/awesome-devops-br
+
 [submodule "site/extras/outros/awesome-extreme-programming"]
 	path = site/extras/outros/awesome-extreme-programming
 	url = https://github.com/lincolixavier/awesome-extreme-programming
+
 [submodule "site/extras/outros/awesome-cafezin"]
 	path = site/extras/outros/awesome-cafezin
 	url = https://github.com/LetticiaNicoli/awesome-cafezin
+
 [submodule "site/extras/awesome/dev-practice"]
 	path = site/extras/awesome/dev-practice
 	url = https://github.com/alinebastos/dev-practice
+
 [submodule "site/extras/awesome/fullstack-challenges"]
 	path = site/extras/awesome/fullstack-challenges
 	url = https://github.com/alinebastos/fullstack-challenges
+
 [submodule "site/extras/awesome/workflow"]
 	path = site/extras/awesome/workflow
 	url = https://github.com/PatoFlamejanteTV/workflow
+
 [submodule "site/extras/outros/awesome-portugal-data"]
 	path = site/extras/outros/awesome-portugal-data
 	url = https://github.com/rgllm/awesome-portugal-data
+
 [submodule "site/extras/awesome/awesome-brasil"]
 	path = site/extras/awesome/awesome-brasil
 	url = https://github.com/vinicius73/awesome-brasil
+
 [submodule "site/extras/outros/empresas-que-usam-react-no-brasil"]
 	path = site/extras/outros/empresas-que-usam-react-no-brasil
 	url = https://github.com/react-brasil/empresas-que-usam-react-no-brasil
+
 [submodule "site/extras/outros/awesome-techleads"]
 	path = site/extras/outros/awesome-techleads
 	url = https://github.com/cjambrosi/awesome-techleads

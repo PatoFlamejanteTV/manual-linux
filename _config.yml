@@ -1,3 +1,0 @@
-url: "https://quack.is-a-good.dev" # the base hostname & protocol for your site
-plugins:
-  - jekyll-sitemap

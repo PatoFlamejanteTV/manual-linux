@@ -1,24 +1,24 @@
 
 # Conceitos
 
-[boot_process.md](/boot_process.md);
-[bootloaders.md](/bootloaders.md);
-[cron.md](/cron.md);
-[daemons.md](/daemons.md);
-[distros.md](/distros.md);
-[environment_variables.md](/environment_variables.md);
-[filesystem.md](/filesystem.md);
-[groups.md](/groups.md);
-[init.md](/init.md);
-[iso.md](/iso.md);
-[kernel.md](/kernel.md);
-[livecd.md](/livecd.md);
-[melhor_distro.md](/melhor_distro.md);
-[networking.md](/networking.md);
-[package_manager.md](/package_manager.md);
-[permissions.md](/permissions.md);
-[processes.md](/processes.md);
-[rice.md](/rice.md);
-[shell.md](/shell.md);
-[systemd.md](/systemd.md);
-[users.md](/users.md);
+[boot_process.md](/boot_process);
+[bootloaders.md](/bootloaders);
+[cron.md](/cron);
+[daemons.md](/daemons);
+[distros.md](/distros);
+[environment_variables.md](/environment_variables);
+[filesystem.md](/filesystem);
+[groups.md](/groups);
+[init.md](/init);
+[iso.md](/iso);
+[kernel.md](/kernel);
+[livecd.md](/livecd);
+[melhor_distro.md](/melhor_distro);
+[networking.md](/networking);
+[package_manager.md](/package_manager);
+[permissions.md](/permissions);
+[processes.md](/processes);
+[rice.md](/rice);
+[shell.md](/shell);
+[systemd.md](/systemd);
+[users.md](/users);

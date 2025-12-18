@@ -12,7 +12,6 @@ _`distro`_.
 - - Ferramentas: [/comandos/tools](tools)
 - Cloud: [/cloud](cloud)
 - Conceitos: [/conceitos](conceitos)
-- Bancos de Dados: [/banco_dados](banco_dados)
 - Distribuições: [/distros](distros)
 - Éticas: [/etica](etica)
 - Extras: [/extras](extras)

@@ -9,6 +9,7 @@ _`distro`_.
 - Comandos: [/comandos](comandos)
 - - Ferramentas: [/comandos/tools](tools)
 - Conceitos: [/conceitos](conceitos)
+- Bancos de Dados: [/banco_dados](banco_dados)
 - Distribuições: [/distros](distros)
 - Éticas: [/etica](etica)
 - Extras: [/extras](extras)

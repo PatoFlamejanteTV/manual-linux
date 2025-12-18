@@ -11,6 +11,7 @@ Um pequeno guia simples sobre como o _Linux_ funciona, em detalhes, desde do sig
 - Éticas: [/etica](etica)
 - Extras: [/extras](extras)
 - Interface: [/interface](interface)
+- Jogos: [/jogos](jogos)
 - Segurança: [/segurança](seguranca)
 - Servidores: [/servidores](servidores)
 

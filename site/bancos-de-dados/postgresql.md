@@ -16,16 +16,24 @@ sudo apt update
 sudo apt install postgresql postgresql-contrib
 ```
 
+No Arch Linux:
+
+```bash
+sudo pacman -S postgresql
+```
+
 No Fedora:
 
 ```bash
 sudo dnf install postgresql-server postgresql-contrib
 ```
 
-## Inicialização (Fedora/CentOS)
+## Inicialização
 
-Em sistemas baseados em RHEL/Fedora, você precisa inicializar o banco de dados
-antes de iniciar o serviço:
+Algumas distros exigem inicializar o cluster de banco de dados antes de iniciar
+o serviço.
+
+Em sistemas baseados em RHEL/Fedora:
 
 ```bash
 sudo postgresql-setup --initdb
@@ -33,11 +41,56 @@ sudo systemctl start postgresql
 sudo systemctl enable postgresql
 ```
 
-## Acessando o PostgreSQL
+No Arch Linux:
 
-O Postgres cria um usuário de sistema chamado `postgres`. Para acessar o
-console:
+```bash
+sudo -u postgres initdb -D /var/lib/postgres/data
+```
+
+## Comandos Básicos
+
+O Postgres cria um usuário de sistema chamado `postgres` por padrão.
+
+Acessar o shell do Postgres (`psql`):
 
 ```bash
 sudo -u postgres psql
+```
+
+### Dentro do shell psql
+
+Listar bancos de dados:
+
+```sql
+\l
+```
+
+Conectar a um banco de dados:
+
+```sql
+\c nome_do_banco
+```
+
+Listar tabelas:
+
+```sql
+\dt
+```
+
+Criar um banco de dados:
+
+```sql
+CREATE DATABASE meu_app;
+```
+
+Criar um usuário:
+
+```sql
+CREATE USER meu_usuario WITH PASSWORD 'minha_senha';
+```
+
+Sair do shell:
+
+```sql
+\q
 ```

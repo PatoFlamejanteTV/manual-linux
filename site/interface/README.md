@@ -5,7 +5,7 @@ Wayland e personalização visual.
 
 ## Tópicos
 
-[de.md](/interface/de.md);
-[display_server.md](/interface/display_server.md);
-[temas.md](/interface/temas.md);
-[wm.md](/interface/wm.md);
+[Ambientes de Desktop](de);
+[Servidor de Exibição](display_server);
+[Temas e Personalização](temas);
+[Gerenciadores de Janelas](wm);

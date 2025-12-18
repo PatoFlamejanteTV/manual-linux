@@ -10,9 +10,9 @@ Um pequeno guia simples sobre como o _Linux_ funciona, em detalhes, desde do sig
 - Distribuições: [/distros](distros)
 - Éticas: [/etica](etica)
 - Extras: [/extras](extras)
-- [/interface](interface)
-- [/segurança](seguranca)
-- [/servidores](servidores)
+- Interface: [/interface](interface)
+- Segurança: [/segurança](seguranca)
+- Servidores: [/servidores](servidores)
 
 ### 💻 Geral
 

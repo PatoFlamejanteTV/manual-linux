@@ -6,6 +6,7 @@ _`distro`_.
 
 ## 📂 Pastas principais
 
+- Bancos de Dados: [/bancos-de-dados](bancos-de-dados)
 - Comandos: [/comandos](comandos)
 - - Ferramentas: [/comandos/tools](tools)
 - Conceitos: [/conceitos](conceitos)

@@ -10,6 +10,7 @@ _`distro`_.
 - Bancos de Dados: [/bancos-de-dados](bancos-de-dados)
 - Comandos: [/comandos](comandos)
 - - Ferramentas: [/comandos/tools](tools)
+- Cloud: [/cloud](cloud)
 - Conceitos: [/conceitos](conceitos)
 - Bancos de Dados: [/banco_dados](banco_dados)
 - Distribuições: [/distros](distros)
@@ -21,6 +22,7 @@ _`distro`_.
 - Redes: [/redes](redes)
 - Segurança: [/segurança](seguranca)
 - Servidores: [/servidores](servidores)
+- Virtualização: [/virtualizacao](virtualizacao)
 
 ### 💻 Geral
 

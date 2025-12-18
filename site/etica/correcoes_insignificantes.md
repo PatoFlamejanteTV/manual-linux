@@ -26,3 +26,27 @@ De acordo com uma pesquisa rápida no Google:
 > Desafios: A transição não foi isenta de obstáculos, com relatos de alguns problemas iniciais de desempenho e quebra de compatibilidade para certos executáveis com o núcleo Rust (`coreutils`), embora os desenvolvedores estejam trabalhando para resolvê-los rapidamente.
 >
 > Ferramenta de gerenciamento: Para gerenciar os testes e a troca desses componentes, os desenvolvedores da Canonical criaram um utilitário de linha de comando chamado `oxidizr`.
+
+## Ninguém mais precisa usar terminal pra usar Linux, certo?
+
+É...
+
+Resumidamente você pode sim usar aplicativos do exato menso jeito que você usa eles no Windows e no Mac, mas a partir do momento que você realmente quiser usar o terminal, você vai perceber que digitar um comando curto pra fazer uma tarefa grande e automatizada, ou usar o terminal pra executar algo que manualmente demoraria horas, você vai perceber o por que o Terminal do Linux é tão amado na comunidade.
+
+## O Linux permite rodar coisas de Windows nele usando o ___, né?
+
+### WINE
+
+WINE não é um emulador, ele traduz as instruções que um aplicativo do Windows daria pra CPU e traduz elas pro Linux.
+
+### Máquina Virtual
+
+Com certeza! Só vai precisar de alguma drivers gráficos (as vezes) pra a máquina virtual rodar mais lisa.
+
+### Bottles
+
+Bottles é praticamente só o WINE com uma interface mais "amigável".
+
+### Proton
+
+Mais pra jogo ou aplicativo de baixo-nível. (?)

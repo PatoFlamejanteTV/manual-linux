@@ -17,6 +17,7 @@ _`distro`_.
 - Redes: [/redes](redes)
 - Segurança: [/segurança](seguranca)
 - Servidores: [/servidores](servidores)
+- Virtualização: [/virtualizacao](virtualizacao)
 
 ### 💻 Geral
 

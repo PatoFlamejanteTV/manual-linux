@@ -1,6 +1,8 @@
 # manual-linux
 
-Um pequeno guia simples sobre como o _Linux_ funciona, em detalhes, desde do significado de algumas palavras bonitas, até como escolher sua primeira _`distro`_.
+Um pequeno guia simples sobre como o _Linux_ funciona, em detalhes, desde do
+significado de algumas palavras bonitas, até como escolher sua primeira
+_`distro`_.
 
 ## 📂 Pastas principais
 
@@ -11,6 +13,7 @@ Um pequeno guia simples sobre como o _Linux_ funciona, em detalhes, desde do sig
 - Éticas: [/etica](etica)
 - Extras: [/extras](extras)
 - Interface: [/interface](interface)
+- Redes: [/redes](redes)
 - Segurança: [/segurança](seguranca)
 - Servidores: [/servidores](servidores)
 

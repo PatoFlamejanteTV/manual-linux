@@ -4,29 +4,26 @@ Um pequeno guia simples sobre como o _Linux_ funciona, em detalhes, desde do
 significado de algumas palavras bonitas, até como escolher sua primeira
 _`distro`_.
 
-## 📂 Pastas principais
+## 📂 Conteúdo
 
-- Automação: [/automacao](automacao)
-- Bancos de Dados: [/bancos-de-dados](bancos-de-dados)
 - Comandos: [/comandos](comandos)
-- - Ferramentas: [/comandos/tools](tools)
-- Cloud: [/cloud](cloud)
+  - Ferramentas: [/comandos/tools](tools)
 - Conceitos: [/conceitos](conceitos)
 - Distribuições: [/distros](distros)
+  - *BSD: _(FreeBSD, OpenBSD, NetBSD, etc.)_ [/distros/bsd](bsd)
 - Éticas: [/etica](etica)
 - Extras: [/extras](extras)
+- Hardware: [/hardware](hardware)
+  - Drivers, firmware, etc..: [/lowlvl](lowlvl)
 - Interface: [/interface](interface)
-- Jogos: [/jogos](jogos)
-- Multimídia: [/multimidia](multimidia)
+  - Jogos: [/interface/jogos](jogos)
+  - Multimídia: [/interface/multimidia](multimidia)
+- Linguagens de Programação: [/langs](langs)
 - Redes: [/redes](redes)
 - Segurança: [/segurança](seguranca)
 - Servidores: [/servidores](servidores)
-- Virtualização: [/virtualizacao](virtualizacao)
-
-### 💻 Geral
-
-- *BSD: _(FreeBSD, OpenBSD, NetBSD, etc.)_ [/BSD](bsd)
-- Hardware: [/hardware](hardware)
-- - Drivers, firmware, etc..: [/lowlvl](lowlvl)
-- Linguagens de Programação: [/langs](langs)
-- Monitoramento: [/monitoramento](monitoramento)
+  - Automação: [/servidores/automacao](automacao)
+  - Bancos de Dados: [/servidores/bancos-de-dados](bancos-de-dados)
+  - Cloud: [/servidores/cloud](cloud)
+  - Monitoramento: [/servidores/monitoramento](monitoramento)
+  - Virtualização: [/servidores/virtualizacao](virtualizacao)

@@ -5,7 +5,7 @@ completamente diferente, suas únicas similaridades são é fato dele ser
 inspirado no UNIX (assim como o Linux), e, se eu não me engano, ter seu kernel
 monolítico.
 
-[dragonflybsd.md](/bsd/dragonflybsd.md);
-[freebsd.md](/bsd/freebsd.md);
-[netbsd.md](/bsd/netbsd.md);
-[openbsd.md](/bsd/openbsd.md);
+[DragonFly BSD](dragonflybsd);
+[FreeBSD](freebsd);
+[NetBSD](netbsd);
+[OpenBSD](openbsd);

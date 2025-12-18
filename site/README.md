@@ -7,6 +7,7 @@ _`distro`_.
 
 ## 📂 Pastas principais
 
+- Automação: [/automacao](automacao)
 - Bancos de Dados: [/bancos-de-dados](bancos-de-dados)
 - Comandos: [/comandos](comandos)
 - - Ferramentas: [/comandos/tools](tools)

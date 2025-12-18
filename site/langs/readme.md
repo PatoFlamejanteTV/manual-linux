@@ -1,4 +1,6 @@
 # Linguagens de programação
 
-[bash.md](/bash);
-[python.md](/python);
+[bash](bash);
+[c](c);
+[go](go);
+[python](python);

@@ -8,6 +8,7 @@ _`distro`_.
 
 - Comandos: [/comandos](comandos)
 - - Ferramentas: [/comandos/tools](tools)
+- Cloud: [/cloud](cloud)
 - Conceitos: [/conceitos](conceitos)
 - Distribuições: [/distros](distros)
 - Éticas: [/etica](etica)

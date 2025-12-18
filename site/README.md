@@ -13,6 +13,7 @@ _`distro`_.
 - Éticas: [/etica](etica)
 - Extras: [/extras](extras)
 - Interface: [/interface](interface)
+- Multimídia: [/multimidia](multimidia)
 - Redes: [/redes](redes)
 - Segurança: [/segurança](seguranca)
 - Servidores: [/servidores](servidores)

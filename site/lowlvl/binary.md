@@ -7,4 +7,4 @@ No contexto da computação, "binário" pode se referir a duas coisas principais
 
 Quando você baixa um programa para Linux e ele não precisa ser instalado, apenas executado, geralmente é um arquivo binário. No Linux, os executáveis geralmente ficam em pastas como `/bin`, `/usr/bin` e `/sbin`.
 
-Diferente de scripts (como Python ou Bash) que são legíveis por humanos, arquivos binários parecem "lixo" se você tentar abri-los em um editor de texto, pois contêm instruções diretas para o processador.
+Diferente de scripts (como Python ou Bash) que são legíveis por humanos, arquivos binários parecem "lixo" se você tentar abri-los em um editor de texto, pois contêm instruções que são diretas, destinadas apenas para o processador.

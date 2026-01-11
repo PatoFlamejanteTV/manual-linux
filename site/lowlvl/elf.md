@@ -3,6 +3,8 @@
 O formato padrão de arquivos executáveis no Linux é o ELF. Quando você roda um
 comando como `ls` ou `bash`, você está executando um arquivo ELF.
 
+ELFs são como os arquivos executáveis EXE do Windows.
+
 ## Estrutura
 
 Um arquivo ELF é dividido em partes principais:

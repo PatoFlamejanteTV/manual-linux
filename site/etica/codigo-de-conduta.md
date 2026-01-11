@@ -1,10 +1,6 @@
 # Código de Conduta (Code of Conduct)
 
-Um **Código de Conduta** (CoC) é um documento que estabelece expectativas de
-comportamento para os participantes de uma comunidade, projeto ou evento. No
-mundo do software livre e open source, onde pessoas de diferentes culturas e
-origens colaboram, o CoC é essencial para manter um ambiente saudável e
-acolhedor.
+Um **Código de Conduta** (CoC) é um documento que, de forma resumida, deixa claro as expectativas de comportamento para os participantes de uma comunidade, projeto ou evento. No mundo do software livre e open source, onde pessoas de diferentes culturas e origens colaboram, o CoC é essencial para manter um ambiente saudável e acolhedor.
 
 ## Por que é importante?
 

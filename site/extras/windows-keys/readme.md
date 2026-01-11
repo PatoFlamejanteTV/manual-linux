@@ -1,3 +1,0 @@
-# Windows-keys
-
-- [/xp](xp)

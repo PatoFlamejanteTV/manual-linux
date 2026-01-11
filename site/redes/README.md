@@ -2,9 +2,7 @@
 
 Documentação sobre protocolos e conceitos de redes.
 
-## Conteúdo
-
-- [DHCP](dhcp);
-- [DNS](dns);
-- [Modelo OSI](osi);
-- [TCP/IP](tcp_ip);
+- [dhcp](dhcp)
+- [dns](dns)
+- [osi](osi)
+- [tcp_ip](tcp_ip)

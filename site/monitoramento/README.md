@@ -1,6 +1,6 @@
 # Monitoramento
 
-- [Introdução](intro);
-- [Grafana](grafana);
-- [Logs](logs);
-- [Prometheus](prometheus);
+- [grafana](grafana)
+- [intro](intro)
+- [logs](logs)
+- [prometheus](prometheus)

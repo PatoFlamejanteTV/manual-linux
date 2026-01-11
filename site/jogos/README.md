@@ -5,8 +5,6 @@ camadas de compatibilidade avançadas e suporte de grandes empresas, jogar no
 Linux hoje é uma realidade viável e muitas vezes com desempenho comparável ao
 Windows.
 
-## Tópicos
-
 - [heroic](heroic)
 - [lutris](lutris)
 - [proton](proton)

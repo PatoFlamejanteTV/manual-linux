@@ -2,6 +2,8 @@
 
 Ferramentas e conceitos de automação e infraestrutura como código (IaC).
 
-- [Ansible](ansible)
-- [Puppet](puppet)
-- [Terraform](terraform)
+- [ansible](ansible)
+- [gitlab-ci](gitlab-ci)
+- [jenkins](jenkins)
+- [puppet](puppet)
+- [terraform](terraform)

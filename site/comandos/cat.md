@@ -20,3 +20,18 @@ drwx------    - u0_a502 20 Nov 20:05  storage/
 ```
 
 No exemplo acima, eu usei o `ls` para listar os arquivos na pasta atual, e usei o `echo` para escrever `teste` no arquivo `exemplo.txt`. Após isso, eu li os conteúdos dele usando o `cat`.
+
+## Exemplo Simples
+
+```bash
+$ cat exemplo.txt
+Linha 1
+Linha 2
+Linha 3
+Esta é uma linha importante
+Outra linha
+Linha final
+ERROR: Algo deu errado
+WARN: Aviso
+INFO: Tudo certo
+```

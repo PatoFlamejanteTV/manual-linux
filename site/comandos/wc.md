@@ -5,17 +5,20 @@ O **wc** (word count) conta linhas, palavras e bytes em arquivos.
 ## Contar linhas
 
 ```bash
-wc -l arquivo.txt
+$ wc -l exemplo.txt
+9 exemplo.txt
 ```
 
 ## Contar palavras
 
 ```bash
-wc -w arquivo.txt
+$ wc -w exemplo.txt
+24 exemplo.txt
 ```
 
 ## Contar caracteres
 
 ```bash
-wc -c arquivo.txt
+$ wc -c exemplo.txt
+129 exemplo.txt
 ```

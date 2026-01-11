@@ -58,3 +58,15 @@ $ mv relatorio_final.txt Arquivados/relatorio_2023.txt
 ```
 
 O comando `mv` é eficiente porque, na maioria das vezes (dentro do mesmo sistema de arquivos), ele não precisa copiar os dados do arquivo; ele apenas atualiza os "ponteiros" que indicam onde o arquivo está e qual é o seu nome.
+
+## Teste em Terminal Real
+
+```bash
+$ mv test_dir_xyz/file2.txt test_dir_xyz/moved_file.txt
+renomeado 'test_dir_xyz/file2.txt' -> 'test_dir_xyz/moved_file.txt'
+
+$ ls -l test_dir_xyz/
+total 0
+-rw-rw-r-- 1 quack quack 0 jan 11 15:23 file1.txt
+-rw-rw-r-- 1 quack quack 0 jan 11 15:23 moved_file.txt
+```

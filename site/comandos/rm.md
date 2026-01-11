@@ -51,3 +51,20 @@ ls: cannot access 'minha_pasta': No such file or directory
 Às vezes, alguns arquivos podem pedir confirmação antes de serem apagados (por exemplo, se estiverem protegidos contra escrita). A opção `-f` (**f**orce) ignora esses avisos e força a remoção sem perguntar nada.
 
 A combinação `rm -rf` é extremamente poderosa e perigosa. O comando `rm -rf /` (com privilégios de administrador) pode apagar o seu sistema operacional inteiro. **Sempre verifique duas vezes o que você está digitando!**
+
+## Teste em Terminal Real
+
+Apagando um arquivo:
+```bash
+$ rm test_dir_xyz/file1.txt
+$ ls -l test_dir_xyz/
+total 0
+-rw-rw-r-- 1 quack quack 0 jan 11 15:23 moved_file.txt
+```
+
+Apagando o diretório inteiro:
+```bash
+$ rm -r test_dir_xyz
+$ ls -ld test_dir_xyz
+ls: não foi possível acessar 'test_dir_xyz': Arquivo ou diretório inexistente
+```

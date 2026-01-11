@@ -4,7 +4,7 @@
 
 ```bash
 $ pwd
-/home/usuario
+/home/quack/manual-linux
 ```
 
 É útil quando você está "perdido" no terminal e não sabe onde está.

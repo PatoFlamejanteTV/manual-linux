@@ -41,3 +41,11 @@ $ tail -f /var/log/nginx/access.log
 # O cursor ficará piscando aqui, esperando por novas linhas...
 ```
 Para parar de seguir o arquivo e voltar ao terminal, pressione `Ctrl+C`.
+
+## Exemplo com arquivo local
+
+```bash
+$ tail -n 2 exemplo.txt
+WARN: Aviso
+INFO: Tudo certo
+```

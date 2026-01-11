@@ -42,3 +42,12 @@ $ head -3 /etc/services
 # Note that it is presently the policy of IANA to assign a single well-known
 ```
 O `head` é uma ferramenta simples, mas que economiza muito tempo no dia a dia para inspecionar arquivos rapidamente.
+
+## Exemplo com arquivo local
+
+```bash
+$ head -n 3 exemplo.txt
+Linha 1
+Linha 2
+Linha 3
+```

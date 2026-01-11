@@ -47,3 +47,13 @@ Aulas/Programacao:
 Projeto1/
 ```
 A opção `-p` é uma mão na roda para evitar a criação manual de cada nível de diretório.
+
+## Teste em Terminal Real
+
+```bash
+$ mkdir test_dir_xyz
+mkdir: foi criado o diretório 'test_dir_xyz'
+
+$ ls -ld test_dir_xyz
+drwxrwxr-x 2 quack quack 4096 jan 11 15:23 test_dir_xyz
+```

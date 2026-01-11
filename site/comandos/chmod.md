@@ -68,3 +68,23 @@ O famoso `chmod 755 script.sh` significa:
 *   **5** para outros (`r-x`)
 
 Ambas as formas funcionam, use a que você se sentir mais confortável!
+
+## Teste em Terminal Real
+
+Vamos criar um script e tentar executá-lo.
+
+```bash
+$ echo 'echo "Hello from test script!"' > test_script.sh
+$ ls -l test_script.sh
+-rw-rw-r-- 1 quack quack 43 jan 11 15:23 test_script.sh
+
+$ ./test_script.sh
+bash: ./test_script.sh: Permissão negada
+
+$ chmod +x test_script.sh
+$ ls -l test_script.sh
+-rwxrwxr-x 1 quack quack 43 jan 11 15:23 test_script.sh
+
+$ ./test_script.sh
+Hello from test script!
+```

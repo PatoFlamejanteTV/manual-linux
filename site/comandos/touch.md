@@ -21,3 +21,11 @@ Se `arquivo.txt` já existir, o comando abaixo apenas atualizará a data de aces
 ```bash
 $ touch arquivo.txt
 ```
+
+## Teste em Terminal Real
+
+```bash
+$ touch test_dir_xyz/file1.txt
+$ ls -l test_dir_xyz/file1.txt
+-rw-rw-r-- 1 quack quack 0 jan 11 15:23 test_dir_xyz/file1.txt
+```

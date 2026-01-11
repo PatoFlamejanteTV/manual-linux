@@ -89,3 +89,25 @@ Habilita regex mais poderoso (ou, pipe, groupings). Equivalente ao comando `egre
 grep -E "erro|aviso" logs.txt
 ```
 
+
+## Testando com arquivo local
+
+Vamos buscar pela palavra "ERROR" no nosso arquivo de exemplo.
+
+```bash
+$ grep "ERROR" exemplo.txt
+ERROR: Algo deu errado
+```
+
+E buscando por "linha" sem diferenciar maiúsculas/minúsculas:
+
+```bash
+$ grep -i "linha" exemplo.txt
+Linha 1
+Linha 2
+Linha 3
+Esta é uma linha importante
+Outra linha
+Linha final
+```
+

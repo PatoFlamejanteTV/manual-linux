@@ -8,7 +8,7 @@ O comando `whoami` (quem sou eu) exibe o nome do usuário que está logado atual
 
 ```bash
 $ whoami
-usuario
+quack
 ```
 
 Se você usar `sudo`, o comando pode retornar `root` se executado em um shell de root:

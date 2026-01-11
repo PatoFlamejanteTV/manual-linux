@@ -60,3 +60,15 @@ Assim como no `rm`, se você tentar copiar um diretório sem nenhuma opção, o 
 $ cp -r projeto_final projeto_final_backup
 ```
 Esta é a forma correta de fazer backup de uma pasta inteira.
+
+## Teste em Terminal Real
+
+```bash
+$ cp test_dir_xyz/file1.txt test_dir_xyz/file2.txt
+'test_dir_xyz/file1.txt' -> 'test_dir_xyz/file2.txt'
+
+$ ls -l test_dir_xyz/
+total 0
+-rw-rw-r-- 1 quack quack 0 jan 11 15:23 file1.txt
+-rw-rw-r-- 1 quack quack 0 jan 11 15:23 file2.txt
+```

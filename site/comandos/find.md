@@ -50,6 +50,23 @@ $ find /home -type f -name "*.vimrc"
 
 O `find` pode parecer complexo no início, mas é uma das ferramentas mais úteis para se dominar no terminal.
 
+## Teste em Terminal Real
+
+Buscando todos os arquivos Python (`*.py`) no diretório atual:
+
+```bash
+$ find . -name "*.py"
+./update_readmes.py
+```
+
+Buscando por um diretório chamado "site":
+
+```bash
+$ find . -type d -name "site"
+./site
+./.git/modules/site
+```
+
 ## Buscas Avançadas
 
 ### Por Data de Modificação (`-mtime`)

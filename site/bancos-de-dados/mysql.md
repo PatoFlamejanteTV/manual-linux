@@ -79,3 +79,26 @@ Sair do shell:
 ```sql
 EXIT;
 ```
+
+## Backup e Restauração
+
+### Fazer Backup (Dump)
+
+Para fazer backup de um banco específico para um arquivo SQL:
+
+```bash
+mysqldump -u root -p meu_banco > backup_meu_banco.sql
+```
+
+Para todos os bancos:
+
+```bash
+mysqldump -u root -p --all-databases > backup_completo.sql
+```
+
+### Restaurar Backup
+
+```bash
+mysql -u root -p meu_banco < backup_meu_banco.sql
+```
+

@@ -24,9 +24,39 @@ caddy file-server --listen :8080
 
 O arquivo de configuração padrão fica em `/etc/caddy/Caddyfile`.
 
-```text
-meusite.com {
-    reverse_proxy localhost:3000
     file_server
 }
 ```
+
+## Comandos de Serviço
+
+Depois de alterar o Caddyfile, recarregue sem derrubar o servidor:
+
+```bash
+sudo systemctl reload caddy
+```
+
+Parar o servidor:
+```bash
+sudo systemctl stop caddy
+```
+
+## Logs
+
+Para ver o que está acontecendo (erros, acessos):
+
+```bash
+journalctl -u caddy -f
+```
+
+## Proxy Reverso (Exemplo)
+
+Caddy é excelente para colocar HTTPS na frente de aplicações Node/Python/Go rodando em portas locais (ex: 3000).
+
+```text
+meudominio.com {
+    reverse_proxy 127.0.0.1:3000
+}
+```
+O certificado HTTPS será gerado e renovado automaticamente!
+

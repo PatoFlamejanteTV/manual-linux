@@ -51,3 +51,41 @@ src/components/Button.js:import styles from './styles.css';
 src/utils/api.js:import { API_URL } from '../constants';
 ```
 A opção `-r` geralmente é combinada com `-i` (`grep -ri ...`) para buscas mais abrangentes. Dominar o `grep` é um superpoder para qualquer pessoa que usa o terminal.
+
+## Outras Opções Úteis
+
+### Inverter a busca (`-v`)
+
+Mostra todas as linhas que **NÃO** contêm o padrão.
+
+```bash
+# Mostrar linhas que não sejam comentários (que não começam com #)
+grep -v "^#" config.txt
+```
+
+### Contar ocorrências (`-c`)
+
+Em vez de imprimir as linhas, mostra quantas linhas casaram.
+
+```bash
+grep -c "erro" logs.txt
+```
+
+### Mostrar número da linha (`-n`)
+
+Útil para saber onde está o código.
+
+```bash
+grep -n "TODO" main.c
+# 15: // TODO: consertar bug
+```
+
+### Expressões Regulares Estendidas (`-E`)
+
+Habilita regex mais poderoso (ou, pipe, groupings). Equivalente ao comando `egrep`.
+
+```bash
+# Busca por "erro" OU "aviso"
+grep -E "erro|aviso" logs.txt
+```
+

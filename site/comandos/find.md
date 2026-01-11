@@ -49,3 +49,45 @@ $ find /home -type f -name "*.vimrc"
 ```
 
 O `find` pode parecer complexo no início, mas é uma das ferramentas mais úteis para se dominar no terminal.
+
+## Buscas Avançadas
+
+### Por Data de Modificação (`-mtime`)
+
+Encontrar arquivos modificados nos últimos dias.
+
+```bash
+# Modificados nos últimos 7 dias
+find . -mtime -7
+
+# Modificados há mais de 30 dias
+find . -mtime +30
+```
+
+### Por Tamanho (`-size`)
+
+```bash
+# Arquivos maiores que 100MB
+find . -size +100M
+```
+
+## Executando Comandos (`-exec`)
+
+O poder real do `find` é fazer algo com o que ele encontra. Use `{}` como placeholder para o arquivo encontrado.
+
+```bash
+# Mudar permissão de todos os arquivos .sh para executável
+find . -name "*.sh" -exec chmod +x {} \;
+```
+
+Note o `\;` no final, é obrigatório para terminar o comando.
+
+### Deletar (`-delete`)
+
+Cuidado! Apaga sem perguntar.
+
+```bash
+# Apagar todos os arquivos .tmp
+find . -name "*.tmp" -delete
+```
+

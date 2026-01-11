@@ -39,3 +39,52 @@ $ ssh admin@192.168.1.100
     ```
 
 Para fechar a conexão, basta digitar `exit` ou pressionar `Ctrl+D`.
+
+## Autenticação por Chaves (Sem Senha)
+
+Para evitar digitar senha toda vez e aumentar a segurança:
+
+1.  **Gerar par de chaves** (na sua máquina):
+    ```bash
+    ssh-keygen -t ed25519 -C "seu_email@exemplo.com"
+    ```
+    Pressione Enter para aceitar o local padrão.
+
+2.  **Copiar chave pública para o servidor**:
+    ```bash
+    ssh-copy-id usuario@host
+    ```
+
+Agora, ao digitar `ssh usuario@host`, a conexão será automática.
+
+## Copiando Arquivos (SCP)
+
+O SSH vem com o `scp` (Secure Copy) para transferir arquivos.
+
+**Do local para o remoto**:
+```bash
+scp arquivo.txt usuario@host:/caminho/destino
+```
+
+**Do remoto para o local**:
+```bash
+scp usuario@host:/caminho/arquivo_remoto.txt .
+```
+
+## Arquivo de Configuração (~/.ssh/config)
+
+Se você acessa muitos servidores, criar “apelidos” facilita muito. Crie ou edite o arquivo `~/.ssh/config`:
+
+```text
+Host meu-servidor
+    HostName 192.168.1.100
+    User admin
+    Port 2222
+    IdentityFile ~/.ssh/id_ed25519
+```
+
+Agora você pode conectar apenas digitando:
+```bash
+ssh meu-servidor
+```
+

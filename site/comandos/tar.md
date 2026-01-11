@@ -60,3 +60,42 @@ $ tar -xzvf meu_projeto.tar.gz
 $ tar -xvf meu_projeto.tar.gz
 ```
 Dominar `tar -czvf` e `tar -xvf` resolve 99% das suas necessidades com arquivos compactados no Linux.
+
+## Outras Operações Úteis
+
+### Listar conteúdo sem extrair
+
+Para ver o que tem dentro do arquivo sem descompactar tudo:
+
+```bash
+# -t: list
+tar -tvf arquivo.tar.gz
+```
+
+### Extrair um único arquivo
+
+Se você quer apenas um arquivo específico de dentro do pacote:
+
+```bash
+tar -xvf arquivo.tar.gz pasta/arquivo_especifico.txt
+```
+
+### Outros Formatos de Compressão
+
+O `tar` suporta outros algoritmos que podem comprimir mais (mas demoram mais):
+
+*   **Bzip2** (`.tar.bz2`): Use a flag `-j`.
+    ```bash
+    tar -cjvf arquivo.tar.bz2 pasta/
+    ```
+
+*   **Xz** (`.tar.xz`): Use a flag `-J` (maiúsculo). Geralmente a melhor compressão.
+    ```bash
+    tar -cJvf arquivo.tar.xz pasta/
+    ```
+
+## FAQ
+
+**Q: Erro "Exiting with failure status due to previous errors"**
+R: Geralmente acontece quando você tenta criar um tar de arquivos que não tem permissão de leitura, ou se os arquivos mudaram enquanto o tar estava rodando.
+

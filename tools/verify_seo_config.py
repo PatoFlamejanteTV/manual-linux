@@ -1,15 +1,19 @@
 import yaml
-import os
 import sys
+from pathlib import Path
 
 def verify_config():
-    config_path = 'site/_config.yml'
-    if not os.path.exists(config_path):
+    config_path = Path(__file__).parent.parent / 'site' / '_config.yml'
+    if not config_path.exists():
         print(f"ERROR: {config_path} not found.")
         return False
 
     with open(config_path, 'r') as f:
         config = yaml.safe_load(f)
+
+    if config is None or not isinstance(config, dict):
+        print("ERROR: Failed to load config or config is not a mapping.")
+        return False
 
     required_plugins = [
         'jekyll-sitemap',

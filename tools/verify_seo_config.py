@@ -3,6 +3,19 @@ import os
 import sys
 
 def verify_config():
+    """
+    Validate SEO-related settings in site/_config.yml.
+    
+    Performs these checks on the configuration file at 'site/_config.yml':
+    - file exists and is readable
+    - required plugins ['jekyll-sitemap', 'jekyll-seo-tag', 'jekyll-optional-front-matter'] are declared in `plugins`
+    - `excerpt_separator` is set to "\n\n"
+    - `defaults` contains an entry with `scope.path == ""` and `values.layout == "default"`
+    - `url` property is present and truthy
+    
+    Returns:
+        bool: `True` if all checks pass, `False` otherwise.
+    """
     config_path = 'site/_config.yml'
     if not os.path.exists(config_path):
         print(f"ERROR: {config_path} not found.")

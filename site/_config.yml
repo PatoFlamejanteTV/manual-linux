@@ -7,3 +7,12 @@ lang: pt-BR
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-optional-front-matter
+
+excerpt_separator: "\n\n"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

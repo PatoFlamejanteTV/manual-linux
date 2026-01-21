@@ -1,6 +1,6 @@
 # mount
 
-O **mount** anexa um sistema de arquivos à estrutura de diretórios do Linux.
+O **mount** manualmente anexa um sistema de arquivos à estrutura de diretórios do Linux.
 
 ## Montar um dispositivo
 

@@ -7,7 +7,9 @@ conexões com sites.
 Exemplo de uso:
 
 ```bash
-$ curl https://google.com
+curl https://google.com
 ```
 
-Isso vai baixar o código HTML da página do Google e mostrar na tela.
+Existem outro usos interassantes com essa ferramenta também, eu recomendo
+usar o irmão dela, o [`wget`](wget) para baixar arquivos de sites e servidores
+remotamente com segurança.

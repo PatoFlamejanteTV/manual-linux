@@ -1,6 +1,6 @@
 # MongoDB
 
-MongoDB é um banco de dados NoSQL orientado a documentos.
+MongoDB é um banco de dados NoSQL (Not Only SQL) orientado a documentos.
 
 ## Instalação (Ubuntu)
 

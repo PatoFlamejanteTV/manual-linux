@@ -1,0 +1,57 @@
+import yaml
+import sys
+from pathlib import Path
+
+def verify_config():
+    config_path = Path(__file__).parent.parent / 'site' / '_config.yml'
+    if not config_path.exists():
+        print(f"ERROR: {config_path} not found.")
+        return False
+
+    with open(config_path, 'r') as f:
+        config = yaml.safe_load(f)
+
+    if config is None or not isinstance(config, dict):
+        print("ERROR: Failed to load config or config is not a mapping.")
+        return False
+
+    required_plugins = [
+        'jekyll-sitemap',
+        'jekyll-seo-tag',
+        'jekyll-optional-front-matter'
+    ]
+
+    plugins = config.get('plugins', [])
+    missing_plugins = [p for p in required_plugins if p not in plugins]
+
+    if missing_plugins:
+        print(f"ERROR: Missing plugins: {missing_plugins}")
+        return False
+
+    if config.get('excerpt_separator') != "\n\n":
+        print("ERROR: excerpt_separator is not set to '\\n\\n'")
+        return False
+
+    defaults = config.get('defaults', [])
+    has_default_layout = False
+    for entry in defaults:
+        if entry.get('scope', {}).get('path') == "" and entry.get('values', {}).get('layout') == 'default':
+            has_default_layout = True
+            break
+
+    if not has_default_layout:
+        print("ERROR: Default layout 'default' is not set for all pages.")
+        return False
+
+    if not config.get('url'):
+        print("ERROR: 'url' property is missing in _config.yml (required for SEO).")
+        return False
+
+    print("SUCCESS: SEO configuration is correct and automated.")
+    return True
+
+if __name__ == "__main__":
+    if verify_config():
+        sys.exit(0)
+    else:
+        sys.exit(1)

@@ -30,6 +30,12 @@ sudo dnf install wine
 sudo pacman -S wine
 ```
 
+### Notas
+
+Pelo menos para mim, todas as vezes que eu tentei usar o WINE/instalar ele na minha máquina eu tive que fazer uma preparação antes, no caso desinstalar todos os pacotes com o nome `wine` (`wine*`) para fazer uma "_instalação limpa_" antes de atualizar ele.
+
+Eu recomendo pesquisar antes de instalar ele, já que é muito fácil acabar com um "_inferno de dependências_" tentando baixar múltiplas versões dele.
+
 ## Uso
 
 Para rodar um executável do Windows (.exe):

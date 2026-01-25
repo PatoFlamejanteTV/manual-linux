@@ -3,4 +3,37 @@
 <link rel="icon" type="image/svg+xml" href="/manual-linux/favicon.svg">
 <link rel="apple-touch-icon" href="/manual-linux/apple-touch-icon.png">
 <link rel="manifest" href="/manual-linux/site.webmanifest">
-<!-- {% seo %} too glitchy and may harm seo ranking-->
+
+{% if page.content %}
+  {% assign content_parts = page.content | split: "
+
+" %}
+  {% if content_parts.size > 1 %}
+    {% assign my_description = content_parts[1] | markdownify | strip_html | strip_newlines | strip | truncate: 160 %}
+  {% else %}
+    {% assign my_description = content_parts[0] | markdownify | strip_html | strip_newlines | strip | truncate: 160 %}
+  {% endif %}
+{% endif %}
+
+{% if my_description == "" or my_description == nil or my_description.size < 10 %}
+  {% assign my_description = site.description %}
+{% endif %}
+
+<!-- HTML Meta Tags -->
+<title>{{ page.title | default: site.title }}</title>
+<meta name="description" content="{{ my_description | escape }}">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ my_description | escape }}">
+<meta property="og:image" content="">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="{{ site.url | remove: 'https://' | remove: 'http://' }}">
+<meta property="twitter:url" content="{{ page.url | absolute_url }}">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:description" content="{{ my_description | escape }}">
+<meta name="twitter:image" content="">

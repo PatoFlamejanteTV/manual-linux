@@ -1,11 +1,23 @@
-# O debate de mil anos
+# "Qual a melhor distribuição Linux?"
 
-Não, não aditan ficar noites mal dormidas revisando opiniões de pessoas na internet para "qual o melhor blablabla", VOCÊ tem que tester um por um, seja uma distro, algum gerenciador de janelas/gráfico, etc.
+Essa é uma pergunta que todo mundo já teve pelo menos uma vez na vida, que é de "qual seria a melhor distribuição Linux", essa é uma pergunta que simplesmente **não tem resposta**.
 
-Um debate de que você também pode desinstalar um gerenciador de janelas e muder-lo de acordo com seu gosto, normalmente também tem pessoas que gostam de modificar Distribuições com o único foco de mudar o ambiente gráfico, como no caso do Ubuntu:
+## Como assim não existe uma resposta
 
-- Kubuntu; (`KDE`)
-- Xubuntu; (`XFCE`)
-- Lubuntu; (`LXDE/LXQT/até eu me embolo nessa`)
+Cada um tem seus gostos, alguns gostam de usar um sistema simples e estável, enquanto outros ativamente "estudam" como as coisas funcionam por dentro (usuário mais avançados em geral).
 
-Como eu já disse previamente, eu recomendo o Linux Mint se você quiser um sistema completo com instalar praticamente sem dificuldades.
+### Então qual você recomenda?
+
+Essas aqui são as minhas recomendações das que eu acho melhor pra cada tipo de usuário:
+
+#### Linux Mint - Para usuários novos ou simples
+
+Linux Mint é praticamente Ubuntu, só que mais polido, tem tudo o que você precisa, mas ainda sim não parece ser "cheio de coisa", eu uso no dia a dia mesmo me considerando um "usuário avançado".
+
+#### Arch Linux e Gentoo - Usuários avançados
+
+Nunca cheguei a usar mas vejo pessoas recomendando eles, talvez eu dia eu teste em uma VM.
+
+#### Linux From Scratch - Para quem deseja estudar e instalar ao mesmo tempo
+
+Muito complicado, complexo, mas vale a apena pra você saber mais a fundo como funciona o Linux.
